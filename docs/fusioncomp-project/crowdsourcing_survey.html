@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<meta name="keywords" content="survey,crowdsourcing,programming,Language,human computation"> 
+<meta name="robots" content="INDEX,FOLLOW">
+<meta https-equiv="Content-Style-Type" content="text/css">
+<meta https-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>List of Programming Languages and Tools for Human Computation and Crowdsourcing Applications</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25989053-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+
+<h1>List of Programming Languages and Tools for Human Computation and Crowdsourcing Applications</h1>
+
+This page shows a list of programming languages and tools for human computation and crowdsourcing applictions.
+This may not be a complete list, but we try to make it to cover as many languages as possible, including research projects and available tools.
+
+<h2>A. Programming Languages</h2>
+
+The set of languages can be divided into two categories: declarative languages and procedural languages. The declarative languages can be further divided into rule-based (logical) languages and SQL-like languages.
+
+<h3>Model-based Languages</h2>
+
+<ul>
+<li><a href="https://www.ifi.uzh.ch/ddis/research/CrowdLang.html">CrowdLang</a>: a model-based programming language under the development by University of Zurich. It provides a set operators that implement common patterns of collective intelligence. The basic operators include divide-and-conquer, aggrregate, multiplay, merge, router, and reduce. </li>
+</ul>
+
+<h3>Rule-based Declarative Languages</h3>
+
+
+<ul>
+<!--<li><a href="http://ai.cs.washington.edu/projects/ckb">Collective Knowledge Bases</a>:
+In the project, they constructed a system to leverage mass collaboration to build large knowledge bases. In the system, contributers (1) give facts and rules and (2) receive feedbacks.
+The collected knowledge base is utilized in an traditional expert-system fastion.
+For example, it is used for printer truble shooting.
+In contrast, CyLog is designed for data-centric applications, in which we collect, process, integrate, and manage data in the presence of human data sources.
+This makes a big difference in the language design. 
+For example, CyLog does not take the traditional closed world assumption and has a mechanism to solicit human input.</li>-->
+<li><a href="http://www.kc.tsukuba.ac.jp/~fusioncomp/index.html">CyLog</a>: an executable rule-based language for data-centric human computations and crowdsourced processing, developed in the FusionCOMP project of University of Tsukuba.
+In CyLog, both of human/machine computations are described with the same set of programming constructs.
+Each human is modeled as a rational data source, which provides data according to expected rewards.
+CyLog provides game aggregations to compute values based on the behaviors of humans or the crowd.
+</li>
+<li><a href="http://www-cs-students.stanford.edu/~adityagp/scoop.html">Deco</a>: A declarative data model for crowdsourcing applications, developed in sCOOP - the Stanford--Santa-Cruz Project for Cooperative Computing with Algorithms, Data and People. The data model is discussed in a Datalog-like notation. They introduce the fetch and resolution rules to obtain and resolve the external data.
+</ul>
+
+
+<h3>SQL-like Declarative Languages</h3>
+
+
+<ul>
+<li><a href="https://amplab.cs.berkeley.edu/publication/crowddb-answering-queries-with-crowdsourcing/">CrowdDB</a>: A research project concucted by UC Berkeley and ETH. It provides an SQL-compatible language to handle queries that cannot be answered by machines only. They try to achieve the data independence and query optimitzation in the presence of the crowd processing.
+<li><a href="https://people.csail.mit.edu/marcua/research.html">Qurk</a>: This is a DB system developed at MIT.
+Qurk helps users build crowd-powered data processing workflows using a SQL-like language.
+In Qurk, user-defined functions are incorporated into SQL queries to interact with the crowd. 
+In contrast, CyLog programs employ Datalog-style rules and an event-driven semantics.
+</ul>
+
+
+
+
+
+<h2>B. Toolkits/Frameworks</h2>
+
+<ul>
+<li><a href="https://smus.com/crowdforge">CrowdForge</a>: A MapReduce-like framework/toolkit, being developed by CMU, to implement complex crowdsourcing applications.
+CrowdForge automatically generates HITs for Amazon's MTurk based on the partition, map, and reduce abstractions.  
+</li>
+<li><a href="https://groups.csail.mit.edu/uid/turkit/">TurKit</a>: A Java/JavaScript API for running iterative tasks on Mechanical Turk. With TurKit, programmers write programs in a straightforward imperative manner, but can safely re-execute programs without re-running costly side effects on Mechanical Turk. CyLog provides a data-centric declarative abstraction, focusing on the fusion of human/machine computations.
+</ul>
+
+Last updated Nov. 2011.
+Maintained by Atsuyuki Morishima (amorishima at acm.org).
+</body>
+</html>

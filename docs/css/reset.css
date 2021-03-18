@@ -1,0 +1,180 @@
+*{
+	box-sizing:border-box;
+}
+/* === Base === */
+html {
+	overflow-y: scroll;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	font-size: 13px;
+}
+body {
+	margin: 0;
+	font-size: 13px;
+	word-spacing: normal;
+	line-height:1.8rem;
+	letter-spacing:0.1rem;
+}
+body, input, button, textarea, select {
+	font-family: 'Marcellus', "Noto Sans Japanese", "ü‡ÉSÉVÉbÉNëÃ", "Yu Gothic", "YuGothic", "ÉqÉâÉMÉmäpÉS ProN W3", "Hiragino Kaku Gothic ProN", "ÉÅÉCÉäÉI", Meiryo, sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+}
+p{
+	margin: 0;
+	padding: 5px 0;
+}
+img {
+	border: 0;
+	-ms-interpolation-mode: bicubic;
+	vertical-align: bottom;
+}
+address{
+	font-style: normal;
+}
+/* === Links === */
+a {
+	color: #196bc7;
+}
+a:visited {
+	color: #196bc7;
+}
+a:focus {
+	outline: thin dotted;
+}
+a:hover, a:active {
+	outline: 0;
+	color: #16AAC9;
+}
+/* === Typography === */
+abbr[title] {
+	border-bottom: 1px dotted;
+}
+b, strong {
+	font-weight: bold;
+}
+blockquote {
+	margin: 1em 40px;
+}
+dfn {
+	font-style: italic;
+}
+mark {
+	background: #ff0;
+	color: #000;
+}
+pre, code, kbd, samp {
+	font-family: monospace, monospace;
+	_font-family: 'courier new', monospace;
+	font-size: 1em;
+}
+pre {
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+q {
+	quotes: none;
+}
+q:before, q:after {
+	content: '';
+	content: none;
+}
+small {
+	font-size: 75%;
+}
+sub, sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
+/* === Lists === */
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+ul {
+	list-style-type:none;
+}
+dd,dt,dl {
+	margin: 0px;
+}
+/* === Figures === */
+figure {
+	margin: 0;
+}
+/* === Forms ==== */
+form {
+	margin: 0;
+}
+fieldset {
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+legend {
+*margin-left: -7px;
+}
+button, input, select, textarea {
+	font-size: 100%;
+	margin: 0;
+	vertical-align: baseline;
+ *vertical-align: middle;
+}
+button, input {
+	line-height: normal;
+*overflow: visible;
+}
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+	cursor: pointer;
+	-webkit-appearance: button;
+}
+input[type="checkbox"], input[type="radio"] {
+	box-sizing: border-box;
+}
+input[type="search"] {
+	-webkit-appearance: textfield;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+ input[type="search"]::-webkit-search-decoration {
+ -webkit-appearance: none;
+}
+ button::-moz-focus-inner, input::-moz-focus-inner {
+ border: 0;
+ padding: 0;
+}
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+/* === Tables === */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th, td {
+	padding: 0;
+	text-align: left;
+	vertical-align: middle;
+}
+/* === HTML5 element display === */
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+audio[controls], canvas, video {
+	display: inline-block;
+*display: inline;
+ *zoom: 1;
+}
+

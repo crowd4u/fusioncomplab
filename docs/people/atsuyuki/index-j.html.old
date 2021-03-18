@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>森嶋厚行(MORISHIMA, Atsuyuki)</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block">■ 森嶋厚行 ■<br>MORISHIMA, Atsuyuki</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#whats-new">刊行・記事・講演・トーク・イベント・プロジェクト</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#profile">プロファイル</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#crowd-sourcing">クラウドソーシング研究会</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#are">1-2年生向け：AREについて</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">主な研究分野</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects-publications-talks">主要なプロジェクト・論文・講演</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#research-funding">研究費獲得状況</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#courses">COURSES</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#recruitment">学生募集</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#course-of-graduates">卒業生の進路</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#students">STUDENTS</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact-information">ご連絡先</a></li>
+                    <li class="nav-item mt-5"><a class="nav-link js-scroll-trigger" href="index.html">[ in English ]</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="top">
+                <div class="resume-section-content">
+                    <h1 class="mb-5">
+                        森嶋厚行<br>
+                        <span class="text-primary">Atsuyuki Morishima</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        教授,
+                        <a href="#">融合知能デザイン研究室(森嶋・松原研)</a>
+                    </div>
+                    <p class="mb-5">(ご連絡先などは<a href="#contact-information">こちら</a>をご覧ください)</p>
+
+                    <div class="thumbnail-links">
+                        <div class="thumbnail-links-content" style="padding:1rem;">
+                            <a href="http://crowd4u.org/ja/"><img width="200" src="assets/img/600x500@2x.png"></a>
+                        </div>
+                        <div class="thumbnail-links-content">
+                            <a href="https://www.amazon.co.jp/dp/1461488052/"><img width="180" src="https://images-na.ssl-images-amazon.com/images/I/419i1k0xkaL._SX331_BO1,204,203,200_.jpg"></a>
+                        </div>
+                        <div class="thumbnail-links-content">
+                            <a href="https://www.kyoritsu-pub.co.jp/bookdetail/9784320009325"><img width="180" src="https://www.kyoritsu-pub.co.jp/app/img/item/9784320009325.jpg"></a>
+                        </div>
+                        <div class="thumbnail-links-content">
+                            <a href="https://humanmachinedata.org/FoW2019/"><img width="300" src="assets/img/shonan-fow2019.png"></a>
+                        </div>
+                        <div class="thumbnail-links-content">
+                            <a href="https://crowd4u.org/events/mind-cndd/index_ja.html"><img width="300" src="assets/img/cndd2019.png"></a>
+                        </div>
+                        <div class="thumbnail-links-content">
+                            <a href="http://lotus.kuee.kyoto-u.ac.jp/NLPforCOVID-19/"><img width="300" src="assets/img/covid-19.png"></a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- What's new-->
+            <section class="resume-section" id="whats-new">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">刊行・記事・講演・トーク・イベント・プロジェクト (Last updated on Oct. 1, 2019)</h2>
+                    <ul class="mb-0">
+                        <li class="new">
+                            [イベント]Shonan Meeting: Human-in-the-loop Bigdata and AI: Brididging the Gap between Theories and Practices for a Better Future of Work(Participants, SIGMOD blog), Shonan Villege Center，2019年9月9日-12日
+                        </li>
+                        <li class="new">
+                            [イベント] 第12回Webとデータベースに関するフォーラム(WebDB Forum 2019) 工学院大学，2019年9月8日-9日
+                        </li>
+                        <li class="new">
+                            [PC Chair]The ACM/IEEE-CS Joint Conference on Digital Libraries (JCDL) 2019, Urbana-Champaign, Illinois, 2019年6月2日-6日
+                        </li>
+                        <li class="new">
+                            [ホスト]情報処理学会第81回全国大会特別セッション「ITとAIが変える働き方の未来 〜 クラウドソーシング，シェアリングエコノミー，ギグエコノミー 〜」 福岡大学, 2019年3月14日.
+                        </li>
+                        <li class="new">
+                            [招待講演] 森嶋厚行. CyborgCrowd Project: Towards Integration of Human and Machine Intelligence Interaction × A.I. - JST CREST HCI for Machine Learning Symposium - , 東京大学, 2019年3月11日.
+                        </li>
+                        <li class="new">
+                            [招待講演] 森嶋厚行. CyborgCrowd Project: Towards Integration of Human and Machine Intelligence Interaction × A.I. - JST CREST HCI for Machine Learning Symposium - , 東京大学, 2019年3月11日.
+                        </li>
+                        <li>
+                            [社会実践] 富山大学，筑波大学，京都大学，新潟県燕市による"全国初の総力型サイバーフィジカル防災訓練", 新潟県燕市，2018年7月1日，9月29日.
+                        </li>
+                        <li>
+                            [社会実践] つくば市 (to be edited).
+                        </li>
+                        <li>
+                            [社会実践] VLDB 2018 (to be edited).
+                        </li>
+                        <li>
+                            [招待講演] 森嶋厚行, 2017年
+                        </li>
+                        <li>
+                            [イベント] 第10回Webとデータベースに関するフォーラム(WebDB Forum 2017) お茶の水女子大学，2017年9月18日-20日
+                        </li>
+                        <li>
+                            [ホスト] JST CREST 3プロジェクト合同シンポジウム：人と人工知能のよりよい未来～個人，集団，社会のためのAI～, 筑波大学，2017年6月2日.
+                        </li>
+                        <li>
+                            [プロジェクト] JST CREST "CyborgCrowd: 柔軟でスケーラブルな人と機械の知力集約" (2016年12月～2022年3月)の暫定ページができました
+                        </li>
+                        <li>
+                           [プロジェクト] ISeeeプロジェクト：オープンな，誰もが誰かの助けになる情報保障(情報保障×クラウドソーシング)
+                        </li>
+                        <li>
+                            [イベント] 第9回データ工学と情報マネジメントに関するフォーラム (DEIM2017) 2017年3月6日-3月8日.
+                        </li>
+                        <li>
+                            [イベント]第8回Webとデータベースに関するフォーラム(WebDB Forum 2015) 2015年11月24日-25日.
+                        </li>
+                        <li>
+                            [解説記事]森嶋厚行 「クラウドソーシング ～新たな情報コンテンツ創造と社会デザインに向けて～」<br>
+                            中野美由紀，山名早人(編)「<特集>ビッグデータがもたらす超情報社会」情報処理学会学会誌，Vol.56, No.10, pp978-981, 2015年10月
+                        </li>
+                        <li>
+                            [特集]森嶋厚行，鹿島 久嗣(編) 「<小特集> クラウドソーシングの現状と可能性」情報処理学会学会誌，vol.56, No.9, pp878-896, 2015年9月
+                        </li>
+                        <li>
+                            [招待講演] 森嶋厚行，川島隆徳, 原田隆史, 宇陀則彦「クラウドソーシングってどうですか？Crowd4U×NDLデータの事例」 (講演・パネル)情報処理学会第106回人文科学とコンピュータ研究会, 2015年5月16日.
+                        </li>
+                        <li>
+                            [ホスト] 情報処理学会第77回全国大会特別セッション「クラウドソーシング研究・応用の最新動向」 2015年3月19日.
+                        </li>
+                        <li>
+                            第7回データ工学と情報マネジメントに関するフォーラム (DEIM2015) 2015年3月2日-4日.
+                        </li>
+                        <li>
+                            森嶋厚行. Crowd4U：災害時の迅速な状況把握への適用 (講演) 第9回マイクロメディアサービス研究会, 2014年12月18日.
+                        </li>
+                        <li>
+                            The 9th Korea-Japan Database Workshop (KJDB 2014) 2014年11月30日-12月1日.
+                        </li>
+                        <li>
+                            Atsuyuki Morishima，“Crowd4U: Toward an Earth-scale Open Network for Microtask-based Crowdsourcing“ Datebase Colloquium, SFC, Keio University. Nov. 28, 2014
+                        </li>
+                        <li>
+                            第7回Webとデータベースに関するフォーラム(WebDB Forum 2014) 2014年11月19日-20日.
+                        </li>
+                        <li>
+                            Atsuyuki Morishima. Crowd4U: Toward an Earth-scale Volunteer Network for Microtask-based Crowdsourcing iSchool Visiting Lectures, University of Pittsburgh, Nov. 8th, 2014.
+                        </li>
+                        <li>
+                            Atsuyuki Morishima. CyLog/Crowd4U : Toward an Earth-scale Volunteer Network for Microtask-based Crowdsourcing (Keynote). The crowdsourcing and human computation multidisciplinary workshop organized by the CNRS MASTODONS challenge, Sep 15th, 2014.
+                        </li>
+                        <li>
+                            森嶋厚行. Crowd4U: なぜアカデミアで協力してクラウドソーシングプラットフォームを作るのか？<br>
+                            京都大学学術情報メディアセンターセミナー「クラウド時代の新しい研究スタイル －ICTは研究活動を加速させられるか？」 , 2014年7月22日.
+                        </li>
+                        <li>
+                            Atsuyuki Morishima "Crowdsourcing Platforms and the Semantic Web" Dagstuhl Seminar "Crowdsourcing and the Semantic Web", organized by Abraham Bernstein et al., July 6-9, 2014.
+                        </li>
+                        <li>
+                            DASFAA workshop on Uncertain and Crowdsourced Data (UnCrowd2014), April 2014
+                        </li>
+                        <li>
+                            森嶋厚行. Crowd4UクラウドソーシングプラットフォームとL-Crowdプロジェクト,. 国文学研究資料館, 2014年3月14日
+                        </li>
+                        <li>
+                            クラウドソーシング研究会「クラウドソーシングとビッグデータに関するワークショップ」2014年2月28日.
+                        </li>
+                        <li>
+                           Atsuyuki Morishima. CyLog/Crowd4U: A Case Study of a Computing Platform for Cybernetic Dataspaces (Invited Chapter). Handbook of Human Computation, Springer, pp. 561-572, Nov. 2013.
+                        </li>
+                        <li>
+                            第6回データ工学と情報マネジメントに関するフォーラム (DEIM2014) 2014年3月3日-5日.
+                        </li>
+                        <li>
+                            情報処理学会連続セミナー2013ビッグデータの深化と真価 第6回「クラウドソーシングとソーシャルメディア」，2013年12月16日
+                        </li>
+                        <li>
+                            Atsuyuki Morishima, Takanori Kawashima, Takashi Harada, Norihiko Uda, Ikki Ohmukai. L-Crowd: A Library Crowdsourcing Project by LIS and CS Researchers in Japan (Invited Talk and paper), International Conference on Digital Libraries (ICDL2013), pp. 40-47, November 2013.
+                        </li>
+                        <li>
+                           クラウドソーシング研究会第2回公開セミナー (井川 甲作 氏 (松竹株式会社)), 2013年10月4日(金)10:30～12:00 (参加無料)
+                        </li>
+                        <li>
+                            森嶋厚行. Crowd4U/L-Crowd: アカデミアによる高度クラウドソーシングプラットフォームと図書館情報分野への応用 (招待講演). 情報処理学会第112回情報基礎とアクセス技術研究会/第45回ディジタル図書館ワークショップ合同研究会，2013年9月26日.
+                        </li>
+                        <li>
+                            VLDB workshop on Database and Crowdsourcing (DBCrowd2013), August 2013
+                        </li>
+                        <li>
+                            森嶋厚行. Crowd4U: アカデミアと応用分野専門家が構築する高度クラウドソーシングプラットフォーム.(招待講演) 2013年度人工知能学会全国大会(JSAI2013) 2013年6月5日.
+                        </li>
+                        <li>
+                            クラウドソーシング研究会発足. 2012年9月20日.
+                        </li>
+                        <li>
+                            FusionCOMPプロジェクト:ヒューマンコンピュテーションとクラウドソーシングのための柔軟なプログラミング言語と開発実行環境の研究 (Since 2009)
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Plofile-->
+            <section class="resume-section" id="profile">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">プロファイル (Last updated on April. 1, 2020)</h2>
+                    <div class="profile-img">
+                        <img src="assets/img/20090424madrid.jpg" alt="プロフィール画像" />
+                    </div>
+                    <ul class="mt-5 mb-5">
+                        <li>筑波大学 図書館情報メディア系</li>
+                        <li>筑波大学 人工知能科学センター ビッグデータ・クラウド部門</li>
+                        <li>筑波大学 人間総合科学研究科情報学学位プログラム</li>
+                        <li>筑波大学 グローバル教育院ヒューマニクス学位プログラム</li>
+                        <li>筑波大学 グローバル教育院エンパワーメント情報学学位プログラム</li>
+                        <li>筑波大学 情報学群 情報メディア創成学類</li>
+                        <li>筑波大学 情報学群 知識情報・図書館学類(兼担)</li>
+                    </ul>
+                    <p>1993年筑波大学第三学群情報学類卒業，1998年同大学院工学研究科修了．博士(工学)． 現在， The VLDB Journal Associate Editor． ICADL Executive Committee Member, ACM/IEEE JCDL Steering Committee Member, DASFAA Steering Committee Member 情報処理学会コンピュータサイエンス領域委員長，日本データベース学会理事， 日本データベース学会論文誌編集委員．科学技術振興機構CREST CyborgCrowd研究代表者．<br>
+                    研究テーマは，データ指向コンピューティング，データ統合，Web情報管理，特に近年は，計算論的分業(computational division of labor)，データ指向クラウドソーシング，ヒューマンコンピュテーションに関して早くから研究を進めている(FusionCOMP(人と計算機の知の融合)プロジェクト)．</p>
+                    <p class="mb-5">2001年，ACM SIGMOD 2001 The Second Runner-up for the Best Paper Award． SilkRouteはXML-RDBシステムの草分けとして知られている． 現在ではXMLデータ処理の基盤技術となっているDewey Encodingを初期にXML分野に導入． 2003年度 情報処理学会論文賞． 2008年度 日本データベース学会上林奨励賞． 2010年～2014年科学技術振興機構さきがけ研究者． 2011年度 筑波大学 Best Faculty． 2012年度 日本データベース学会論文賞． 2014年度 日本データベース学会若手功績賞．<br>
+                    2015年，人と計算機の知の融合のためのプログラミング言語に関する研究においてCAiSE2015 Best Paper Award. 2018年，聴覚障害者をワーカとする手話通訳のクラウドソーシングデザインに関する研究においてThe 2018 Emerald Literati Awards．</p>
+                    <p class="mb-5">過去には，情報処理学会データベースシステム研究会(DBS研)主査，情報処理学会論文誌データベース(TOD)共同編集委員長， 電子情報通信学会データ工学研究専門委員会副委員長，情報処理学会データベースシステム研究会幹事，ACM SIGMOD日本支部幹事，情報処理学会論文誌TOD編集委員． JCDL2019 PC Co-chair，ICADL2016 General and PC Co-chair．また，ICADL VLDB, SIGMOD, ICDE, EDBT, CIKM, ECDL, DASFAA, ICADL, XSym, PersDB, DBCrowd等のプログラム委員や実行委員等を歴任．</p>
+
+
+                 <!-- 詳細な略歴-->
+                    <div class="subheading mb-3">詳細な略歴 Profile (Last updated in 2010)</div>
+                    <ul class="mb-0">
+                        <li>小学生時代に，4bit計算機(<a href="http://www.denshiblock.co.jp/toy5.html" target="_blank">電子ブロックFXマイコンR-165</a>)用のマクロアセンブラの設計を行う．中～高時代，趣味はプログラミング言語自作と批評．LISP，FORTHインタプリタ・コンパイラの制作，APLライクな言語の設計とインタプリタの制作，などを行う．プログラミングパラダイム，ソフトウェア工学等に興味を持つ．また，各種アクション，アドベンチャー，思考ゲーム等も多数制作した．</li>
+                        <li>1993(平成5)年3月: 筑波大学第3学群情報学類卒業．卒業研究論文「モジュール間データ結合の解析とプログラム理解」(指導教官：宇都宮公訓 先生)</li>
+                        <li>1995(平成7)年3月: 修士(工学)．修士論文「プログラム理解とその応用に関する研究」(指導教官：宇都宮公訓 先生)</li>
+                        <li>1998(平成10)年7月: 筑波大学大学院工学研究科修了．博士(工学) (筑波大学)．博士論文「An Information Integration System for Structured Documents, Web, and Databases」(指導教官：<a href="http://www.kde.cs.tsukuba.ac.jp/~kitagawa" target="_blank">北川博之 先生</a>)</li>
+                        <li>1998(平成10)年7月: 日本学術振興会特別研究員(DC)</li>
+                        <li>1998(平成10)年8月-2001(平成13)年3月: 日本学術振興会特別研究員(PD)</li>
+                        <li>1999(平成11)年10月-2000(平成12)年9月: AT&T Labs-Research客員研究員</li>
+                        <li>2001(平成13)年4月-2003(平成15)年3月: 芝浦工業大学工学部情報工学科講師</li>
+                        <li>2003(平成15)年4月-2004年(平成16)年3月: 筑波大学 知的コミュニティ基盤研究センター/図書館情報学系 助教授</li>
+                        <li>2004(平成16)年4月-2007(平成19)年3月: 筑波大学大学院図書館情報メディア研究科/知的コミュニティ基盤研究センター 助教授</li>
+                        <li>2007(平成19)年4月-: 筑波大学大学院図書館情報メディア研究科/知的コミュニティ基盤研究センター 准教授</li>
+                        <li>2010(平成21)年10月-: 科学技術振興機構さきがけ研究員(「情報環境と人」領域)</li>
+                     </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+
+
+
+            <!-- crowd-sourcing-->
+            <section class="resume-section" id="crowd-sourcing" style="min-height: 30vh;">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">クラウドソーシング研究会</h2>
+                    <p>クラウドソーシング/ヒューマンコンピュテーション分野でアクティブに活動されている方とクラウドソーシング研究会を開催しています．</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- ARE-->
+            <section class="resume-section" id="are">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">1-2年生向け：AREについて (Last updated on April 22, 2020)</h2>
+                    <p>mlabではAREに興味がある学生を募集しています．詳細はfusioncomplab-staff@ml.cc.tsukuba.ac.jpまで相談してください．</p>
+                    <ul class="fa-ul mb-0">
+                        <li class="mb-3">
+                            <span class="subheading">アクセス</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="#contacs">[ご連絡先(郵送，email，電話，交通案内)]</a>
+                                </li>
+                                <li class="list-inline-item">
+                                     <a href="http://www.mir.co.jp/">[つくばエクスプレス]</a>
+                                </li>
+                                <li class="list-inline-item">
+                                     <a href="http://www.mlit.go.jp/crd/daisei/tsukuba/index.html">[つくば研究学園都市]</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mb-3">
+                            <span class="subheading mb-3">研究</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="#research">[研究テーマ]</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#projects">[主要なプロジェクト・業績]</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://www.kc.tsukuba.ac.jp/~fusioncomp/index-j.html">J[STさきがけ「情報環境と人」採択研究]</a>
+                                </li>
+                                <li class="list-inline-item hot">
+                                    <a href="https://sites.google.com/site/crowdsourcingresearch/">[クラウドソーシング研究会 発足]</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mb-3">
+                            <span class="subheading mb-3">研究室</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="#students">[研究室メンバ]</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#pubs">[今年の業績]</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#misc">[受賞などの記録]</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#recruit">[研究室配属・見学案内]</a>
+                                </li>
+                            </ul>
+
+                        </li>
+                        <li class="mb-3">
+                            <span class="subheading mb-3">イベント(未来)</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="http://db-event.jpn.org/deim2014/">[DEIM forum 2014]</a>
+                                    発表・参加者募集！
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="mb-3">
+                            <span class="subheading mb-3">イベント(過去)</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="http://dbweb.enst.fr/events/dbcrowd2013/">DBCrowd 2013</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://db-event.jpn.org/deim2013/">DEIM forum 2013</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://db-event.jpn.org/webdbf2012/">WebDB Forum 2012</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://db-event.jpn.org/deim2013/">DEIM forum 2013</a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a href="http://db-event.jpn.org/deim2012/">DEIM forum 2012</a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a href="http://db-event.jpn.org/webdbf2011/">WebDB Forum 2011</a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a href="http://icde2005.is.tsukuba.ac.jp/index-ja.html">ICDE2005</a>
+                                </li>
+
+                                <li class="list-inline-item">
+                                    <a href="http://www.icadl2006.org/">ICADL2006</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://castor.kyoto-su.ac.jp/dbweb2007/">DBWeb 2007</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://www.kde.cs.tsukuba.ac.jp/kjdb2008/">KJDB2008</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://www.cikm2008.org/">CIKM 2008</a>
+                                     (10/26-30)
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://db-event.jpn.org/webdbf2008/">WebDB Forum 2008</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://db-event.jpn.org/webdbf2009/">WebDB Forum 2009</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://dasfaa2010.cs.tsukuba.ac.jp/">DASFAA2010</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://db-event.jpn.org/webdbf2010/">WebDB Forum 2010</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <span class="subheading mb-3">その他</span>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <a href="http://www.shihoukai.gr.jp/~endan/wins/">筑波大学応援部WINS メンバー募集中です</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="http://sound.jp/utsb/">筑波大学吹奏楽団 メンバー募集中です</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">主な研究分野 Research Interests</h2>
+                    <p>データ工学，データベース．特に</p>
+                    <div class="subheading mb-3">
+                        <a href="https://fusioncomplab.org/fusioncomp-project/index-j.html">クラウドソーシング，Human Computationのためのプログラミング言語とデータ処理 (さきがけ採択研究)</a>(Since 2008)
+                    </div>
+                    <p>
+                        <a href="http://www.kc.tsukuba.ac.jp/~mori/isbuilder/crowdsourcing_survey.html">A List of Programming Languages for Crowdsourcing Applications</a><br>
+                        <a href="http://crowd4u.slis.tsukuba.ac.jp">マイクロボランティア・クラウドソーシングプラットフォームCrowd4U</a>
+                    </p>
+
+                    <div class="subheading mt-5 mb-3">
+                        <a href="is-governance.pdf">[PDF]</a>
+                        <a href="./infospace-governance.html">情報ガバナンス技術</a>,<a href="./infospace-governance.html">情報空間ガバナンス，データガバナンス，メタデータデータベース</a>(Since 2003)
+                    </div>
+                    <ul>
+                        <li>Web情報空間ガバナンス，Web一貫性維持・管理/Webアーカイブ (Web Integrity/Archive)</li>
+                        <li>コミュニティ情報空間ガバナンス，コミュニティ情報管理(Community Information Management)</li>
+                    </ul>
+                    <div class="subheading mt-5 mb-3">
+                        情報統合技術，データ変換技術 (Information Integration Technologies, Data Translation Technologies) (Since 1996)
+                    </div>
+                    <ul>
+                        <li>データモデルとメディエータ (Data Models and Mediators)</li>
+                        <li>データメンテナンス・修復，データ再利用 (Data Maintenance/Repair, Data Reusability)</li>
+                        <li>XMLとデータベース (XML and Databases)</li>
+                        <li>スキーママッピング(Schema Mapping)</li>
+                    </ul>
+                    <div class="subheading mt-5">
+                        レゾンデートルコンピューティング (Since 2000年頃)- ロングタームビジョンです．計算機資源を，人々が存在理由を確認する機会の提供に利用します．
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Selected Projects, Publications and Talks-->
+            <section class="resume-section" id="projects-publications-talks">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">主要なプロジェクト・論文・講演 Selected Projects, Publications and Talks (Last updated in 2016)</h2>
+                        <h3 class="mb-0">1. <a href="https://fusioncomplab.org/fusioncomp-project/index-j.html">The FusionCOMP Project</a> (2009-): Fusion of data-centric COmputations of Machines and People [<a href="http://www.kc.tsukuba.ac.jp/~fusioncomp/">Project Page</a>]</h3>
+                        <div class="subheading mb-3">This is joint work with: Norihide Shinagawa, Tomomi Mitsuishi, Hideto Aoki, Shun Fukusumi</div>
+                        <ul>
+                            <li class="new">Kosetsu Ikeda, Atsuyuki Morishima, Habibur Rahman, Senjuti Basu Roy, Saravanan Thirumuruganathan, Sihem Amer-Yahia, Gautam Das. Collaborative Crowdsourcing with Crowd4U. VLDB 2016 (demo, to appear)</li>
+                            <li class="new">Atsuyuki Morishima, Shun Fukusumi, Hiroyuki Kitagawa. CyLog/Game Aspect: An Approach to Separation of Concerns in Crowdsourced Data Management. Information Systems, 2016. (to appear)</li>
+                            <li>Nobuyuki Shimizu, Atsuyuki Morishima, Ryota Hayashi. A Crowdsourcing Method for Obtaining Rephrased Questions. HCOMP 2015: 32-33</li>
+                            <li><span class="fa-li lbl-awards">Best Paper Award</span>Shun Fukusumi, Atsuyuki Morishima, Hiroyuki Kitagawa. Game Aspect: An Approach to Separation of Concerns in Crowdsourced Data Management.27th International Conference on Advanced Information Systems Engineering (CAiSE 2015), pp. 6-19, Stockholm, Sweden, June 8-12, 2015. (Acceptance rate=13.1%)</li>
+                            <li>Atsuyuki Morishima, Sihem Amer-Yahia, Senjuti Basu Roy. Crowd4U: An Initiative for Constructing an Open Academic Crowdsourcing Network.Second AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2014) WorkInProgress, pp. 50-51, Pittsburgh, USA, November 2-4, 2014.</li>
+                            <li>Atsuyuki Morishima, Shiori Tomita, Takanori Kawashima, Takashi Harada, Norihiko Uda, Sho Sato, Yukihiko Abematsu. A Crowdsourcing Approach for Finding Misidentifications of Bibliographic Records. iConference 2014, pp. 177-191, 2014.</li>
+                            <li>Atsuyuki Morishima. CyLog/Crowd4U: A Case Study of a Computing Platform for Cybernetic Dataspaces (Invited Chapter). Handbook of Human Computation, Springer, pp. 561-572, Nov. 2013.</li>
+                            <li>Atsuyuki Morishima, Takanori Kawashima, Takashi Harada, Norihiko Uda, Ikki Ohmukai. L-Crowd: A Library Crowdsourcing Project by LIS and CS Researchers in Japan (Invited Talk and paper), International Conference on Digital Libraries (ICDL2013), pp. 40-47, November 2013.</li>
+                            <li>Aoki Hideto, Atsuyuki Morishima. A Divide-and-Conquer Approach for Crowdsourced Data Enumerataion. SocInfo 2013, pp. 60-74, November 2013.</li>
+                            <li>Kenji Gonnokami, Atsuyuki Morishima, Hiroyuki Kitagawa. Condition-Task-Store: A Declarative Abstraction for Microtask-based Complex Crowd-sourcing. DBCrowd 2013: 20-25, August 2013.</li>
+                            <li>Tomomi Mitsuishi, Atsuyuki Morishima, Norihide Shinagawa, Hideto Aoki. "Efficient Evaluation of Human-powered Joins with Crowdsourced Join Pre-filters." The 7th ACM International Conference on Ubiquitous Information Management and Communication (ACM ICUIMC2013), 6 pages, Kota Kinabalu, Malaysia, January 17-19, 2013.</li>
+                            <li>Atsuyuki Morishima, Norihide Shinagawa, Tomomi Mitsuishi, Hideto Aoki, Shun Fukusumi. CyLog/Crowd4U: A Declarative Platform for Complex Data-centric Crowdsourcing, PVLDB 5(12): 1918-1921 (2012)</li>
+                            <li>Atsuyuki Morishima, Norihide Shinagawa, Shoji Mochizuki. The Power of Integrated Abstraction for Data-centric Human/Machine Computations. First International Workshop on Searching and Integrating New Web Data Sources (VLDS2011) Co-located with VLDB 2011, pp. 5-8, September, 2011.</li>
+                            <li>Atsuyuki Morishima. A Database Abstraction for Data-intensive Social Applications. The 5th Korea-Japan Database Workshop 2010 (KJDB2010), May 28-29, 2010. Jeju Province, Korea.</li>
+                        </ul>
+
+                        <h3 class="mt-5 mb-0">2. InfoSpace Governor Project (2005-): Govern Your Community Information Spaces!</h3>
+                        <div class="subheading mb-3">This is joint work with: Masateru Tadaishi, Keishi Tajima, Ken'ichi Ishikawa, Shoji Mochizuki, Isamu Suzuki, Mariko Kodama</div>
+                        <ul>
+                           <li>Atsuyuki Morishima, Keishi Tajima, Masateru Tadaishi. Optimal Tree Node Ordering for Child/Descendant Navigations. The 26th International Conference on Data Engineering (ICDE 2010), pp. 840-843, Long Beach, California, USA, March 1-6, 2010.(short)<br>
+                            [<a href="./icde10cameraDebug.pdf">Bug-fixed version here</a>]</li>
+                        </ul>
+
+                        <h3 class="mt-5 mb-0">3. SMART (2003-): A "divide and conquer" approach to the development of complex XML mappings.</h3>
+                        <div class="subheading mb-3">This is joint work with: Natsuko Furukawa, Tadatoshi Kamimura, Toshiaki Okawara, Jyun'ichi Tanaka, Ayako Eiju.</div>
+                        <ul>
+                           <li>Atsuyuki Morishima. A Semantic-Driven Approach to the Creation of Complex XML Mappings. IBM Almaden Research Center, San Jose, CA, USA, July 13, 2005.</li>
+                           <li>Atsuyuki Morishima, Toshiaki Okawara, Jun'ichi Tanaka, and Ken'ichi Ishikawa. SMART: A Tool for Semantic-Driven Creation of Complex XML Mappings. ACM SIGMOD Conference 2005 (demo), pp. 909-911, June 2005.</li>
+                        </ul>
+
+
+                        <h3 class="mt-5 mb-0">4. The WISH Project (2003-): Web Integrity management by Self-Healing mechanisms.</h3>
+                        <div class="subheading mb-3">This is joint work with: Akiyoshi Nakamizo, Tomohiro Ariyama, Toshinari Iida, Natsumi Sawa, Masami Takahashi, Erika Yumiya, Shigeo Sugimoto, Hiroyuki Kitagawa.</div>
+                        <ul>
+                           <li class="new">Atsuyuki Morishima, Erika Yumiya, Masami Takahashi, Shigeo Sugimoto, Hiroyuki Kitagawa. Efficient Filtering and Ranking Schemes for Finding Inclusion Dependencies on the Web. CIKM 2013, pp. 763-768, Oct. 2013.</li>
+                           <li>Erika Yumiya, Atsuyuki Morishima, Masami Takahashi, Shigeo Sugimoto, Hiroyuki Kitagawa. Filtering and Ranking Schemes for Finding Inclusion Dependencies on the Web. The 21st International World Wide Web Conference (WWW 2012), pp. 647-648, Lyon, France, April 16-20, 2012 (poster)</li>
+                           <li>Atsuyuki Morishima, Akiyoshi Nakamizo, Toshinari Iida, Shigeo Sugimoto, Hiroyuki Kitagawa. Bringing Your Dead Links Back to Life: A Comprehensive Approach and Lessons Learned. The 20th ACM Conference on Hypertext and Multimedia (ACM Hypertext 2009), pp. 15-24, Torino, Italy, June 29th -July 1st, 2009.</li>
+                           <li>Atsuyuki Morishima, Akiyoshi Nakamizo, Toshinari Iida, Shigeo Sugimoto, Hiroyuki Kitagawa. Why are Moved Web Pages Difficult to Find? The WISH Approach. The 18th International World Wide Web Conference (WWW 2009), pp. 1117-1118, Madrid, Spain, April 20-24, 2009 (poster)</li>
+                           <li>Atsuyuki Morishima, Akiyoshi Nakamizo, Toshinari Iida, Shigeo Sugimoto, Hiroyuki Kitagawa. PageChaser: A Tool for the Automatic Correction of Broken Web Links. The 24th International Conference on Data Engineering (ICDE 2008), pp. 1486-1488, Cancun, Mexico, April 7-12, 2008. (poster)</li>
+                        </ul>
+
+                        <h3 class="mt-5 mb-0">5. XLearner (2001-): A rapid development tool for XML mapping queries, powered by the active learning framework.</h3>
+                        <div class="subheading mb-3">This is joint work with: Akira Matsumoto, Akiyoshi Nakamizo, Hiroyuki Kitagawa.</div>
+                        <ul>
+                           <li>Atsuyuki Morishima, Hiroyuki Kitagawa, and Akira Matsumoto. A Machine Learning Approach to Rapid Development of XML Mapping Queries. ICDE 2004, pp. 276-287, March 2004.</li>
+                        </ul>
+
+
+                        <h3 class="mt-5 mb-0">6. SilkRoute (1999-2002): A general, efficient, and dynamic architecture for viewing and querying relational data in XML.</h3>
+                        <div class="subheading mb-3">This is joint work with: Mary Fernandez, Yana Kadiyska, Dan Suciu, Wang-Chiew Tan.</div>
+                        <ul>
+                           <li>Mary F. Fernandez, Yana Kadiyska, Atsuyuki Morishima, Dan Suciu, Wang-Chiew Tan. SilkRoute : A Framework for Publishing Relational Data in XML. ACM TODS 27(4): 438-493 (2002)</li>
+                           <li>Mary F. Fernandez, Atsuyuki Morishima, Dan Suciu, Wang Chiew Tan. Publishing Relational Data in XML: the SilkRoute Approach. IEEE Data Engineering Bulletin 24(2): 12-19 (2001)</li>
+                           <li>Mary F. Fernandez, Atsuyuki Morishima, Dan Suciu. Efficient Evaluation of XML Middle-ware Queries. SIGMOD Conference 2001 (<a href="letter.pdf">A letter from the chair of the program committee</a>)</li>
+                        </ul>
+
+
+                        <h3 class="mt-5 mb-0">7. AQUA (1999-2002): A web-site construction tool in a drag-and-drop style for data-intensive web-sites.</h3>
+                        <div class="subheading mb-3">This is joint work with: Seiichi Koizumi, Satoshi Takano, Akira Sato, Takanori Mouri, Hiroyuki Kitagawa</div>
+                        <ul>
+                           <li>Atsuyuki Morishima, Seiichi Koizumi, Hiroyuki Kitagawa, Satoshi Takano: Enabling End-users to Construct Data-intensive Web-sites from XML Repositories: An Example-based Approach. VLDB 2001: 703-704</li>
+                           <li>Atsuyuki Morishima, Seiichi Koizumi, Hiroyuki Kitagawa: Drag and Drop: Amalgamation of Authoring, Querying, and Restructuring for Multimedia View Construction. VDB 2000</li>
+                        </ul>
+
+                        <h3 class="mt-5 mb-0">8. InfoWeaver (1996-2000): An information integration system for the Web, structured documents, and databases, using ADT technologies.</h3>
+                        <div class="subheading mb-3">This is joint work with: Kazunori katoh, Tsuyoshi Nemoto, Shan Lin, Hironori Mizuguchi, Kumiko Kaimasu, Tomoyuki Kajino, Hiroyuki Kitagawa</div>
+                        <ul>
+                           <li>Atsuyuki Morishima, Hiroyuki Kitagawa: InfoWeaver: Dynamic and Tailor-made Integration of Structured Documents, Web, and Databases. ACM DL 1999: 235-236</li>
+                           <li>Kazunori Katoh, Atsuyuki Morishima, Hiroyuki Kitagawa: Navigator-based Query Processing in the World Wide Web Wrapper. FODO 1998: 191-199</li>
+                           <li>Atsuyuki Morishima, Hiroyuki Kitagawa: A Data Modelling and Query Processing Scheme for Integration of Structured Document Repositories and Relational Databases. DASFAA 1997: 145-154</li>
+                        </ul>
+
+                        <h3 class="mt-5 mb-0">9. その他の記録(*は受賞者) (Last updated in 2015 )</h3>
+                        <ul>
+                           <li>平成27年6月 Best Paper Award<br>受賞対象：Shun Fukusumi, Atsuyuki Morishima, Hiroyuki Kitagawa. Game Aspect: An Approach to Separation of Concerns in Crowdsourced Data Management.<br>27th International Conference on Advanced Information Systems Engineering (CAiSE 2015), pp. 6-19, Stockholm, Sweden, June 8-12, 2015.</li>
+                           <li>平成27年3月 電子情報通信学会データ工学研究会，日本データベース学会，情報処理学会データベースシステム研究会共催 DEIMフォーラム (DEIM2015) 学生プレゼンテーション賞<br>受賞対象：櫻井恵美*, 森嶋厚行, 池田光雪, 鈴木伸崇,「不十分な情報から開始するデータグルーピングのためのマイクロタスク設計」, 第7回データ工学と情報マネジメントに関するフォーラム (DEIM2015),8pages,福島県郡山市,2015年3月3日.</li>
+                           <li>平成27年3月 筑波大学 平成26年度 情報メディア創成学類長表彰：太田千尋君</li>
+                           <li>平成25年3月 筑波大学 平成24年度 茗渓賞：三津石智巳君</li>
+                           <li>平成25年3月 筑波大学 平成24年度 図書館情報メディア研究科長表彰：安永ゆい君</li>
+                           <li>平成25年3月 筑波大学 平成24年度 情報メディア創成学類長表彰：権守健嗣君</li>
+                           <li>平成25年3月 筑波大学 平成24年度 情報メディア創成学類長表彰：富田栞君</li>
+                           <li>平成25年3月 電子情報通信学会データ工学研究会，日本データベース学会，情報処理学会データベースシステム研究会共催 DEIMフォーラム (DEIM2013) 優秀インタラクション賞<br>受賞対象： 安永 ゆい*, 森嶋 厚行, 袖山 広輝 「構造/テキストWebデータを対象としたPay-as-You-Goスタイルの問合せ構築支援手法」</li>
+                           <li>平成25年3月 電子情報通信学会データ工学研究会，日本データベース学会，情報処理学会データベースシステム研究会共催 DEIMフォーラム (DEIM2013) 学生プレゼンテーション賞<br>受賞対象：三津石 智巳*, 森嶋 厚行, 青木 秀人 「Crowdsourced Join Pre-filterによるHuman-powered Join 処理効率化の評価」</li>
+                           <li>平成24年3月 筑波大学 平成23年度 図書館情報メディア研究科長表彰：弓矢絵梨佳君</li>
+                           <li>平成24年3月 筑波大学 平成23年度 情報メディア創成学類長表彰：福角駿君</li>
+                           <li>平成24年3月 筑波大学 平成23年度 情報メディア創成学類長表彰：財前涼君</li>
+                           <li>平成23年11月 情報処理学会データベースシステム研究会，日本データベース学会及び電子情報通信学会データ工学研究専門委員会共催 WebDBフォーラム2011 企業賞(サイボウズ・ラボ賞)<br>受賞対象：袖山広輝，安永ゆい，只石正輝，品川徳秀，森嶋厚行 「構造/テキストWebデータのためのハイブリッド問合せ言語」</li>
+                           <li>平成22年3月 筑波大学 平成21年度 図書館情報メディア研究科長表彰：高橋公海君</li>
+                           <li>平成21年11月 情報処理学会データベースシステム研究会，日本データベース学会及び電子情報通信学会データ工学研究専門委員会共催 WebDBフォーラム 学生奨励賞<br>受賞対象：高橋公海*，森嶋厚行，杉本重雄，北川博之 「ビットシグネチャ法を用いたWebページの包含従属性発見の効率化」</li>
+                           <li>平成21年3月 筑波大学 平成20年度 図書館情報メディア研究科長表彰：三森祐一郎君</li>
+                           <li>平成21年3月 筑波大学 平成20年度 図書館情報専門学群 優秀学生表彰：安西則晃君</li>
+                           <li>平成21年3月 電子情報通信学会データ工学研究会，日本データベース学会，情報処理学会データベースシステム研究会共催 DEIMフォーラム (DEIM2009) 優秀インタラクション賞<br>受賞対象：高橋公海*，森嶋厚行，杉本重雄，北川博之 「Webページを対象とした包含従属性の効率的な発見手法」</li>
+                           <li>平成21年3月 日本データベース学会　上林奨励賞: 森嶋厚行</li>
+                           <li>平成20年9月 情報処理学会データベースシステム研究会，電子情報通信学会データ工学研究会，日本データベース学会共催 iDBフォーラム (iDB 2008) 学生奨励賞<br>受賞対象：高橋公海*，森嶋厚行，松本亜季子，杉本重雄，北川博之 「Webコンテンツ一貫性管理のための制約発見支援」</li>
+                           <li>平成20年3月 筑波大学 平成19年度 図書館情報メディア研究科長表彰：澤菜津美さん</li>
+                           <li>平成20年3月 筑波大学 平成19年度 図書館情報専門学群 総代：只石正輝君</li>
+                           <li>平成19年7月 電子情報通信学会データ工学研究会，情報処理学会データベースシステム研究会，日本データベース学会共催 夏のデータベースワークショップ(DBWS2007) 学生研究発表奨励賞<br>受賞対象：澤菜津美*，森嶋厚行，杉本重雄，北川博之 「非定型Webコンテンツ管理のための軽量ラッピング言語」</li>
+                           <li>平成19年7月 電子情報通信学会データ工学研究会，情報処理学会データベースシステム研究会，日本データベース学会共催 夏のデータベースワークショップ(DBWS2007) 学生研究発表奨励賞<br>受賞対象：三森祐一郎*，森嶋厚行 「メタデータを利用した高度ファイル操作のためのミドルウェアの提案」</li>
+                           <li>平成19年3月 電子情報通信学会 第18回データ工学ワークショップ(DEWS2007) 優秀プレゼンテーション賞<br>受賞対象：望月 祥司*, 児玉 麻莉子, 森嶋 厚行, 石川 憲一, 田島 敬史 「大規模ディレクトリ空間視覚化のための論理構造抽出」</li>
+                           <li>平成19年3月 第69回情報処理学会全国大会 学生奨励賞<br>受賞対象：三森祐一郎*，森嶋厚行 「データベース統合のための作業手順作成支援システムの開発」</li>
+                           <li>平成19年3月 筑波大学 平成18年度 図書館情報メディア研究科長表彰，学長表彰：石川憲一君</li>
+                           <li>平成18年7月 電子情報通信学会データ工学研究会，情報処理学会データベースシステム研究会，日本データベース学会共催 夏のデータベースワークショップ(DBWS2006) 学生研究発表奨励賞<br>受賞対象：石川憲一*，森嶋厚行，田島敬史 「大規模ドキュメント空間管理のための意味ファイルシステムの構築」</li>
+                           <li>平成18年7月 電子情報通信学会データ工学研究会，情報処理学会データベースシステム研究会，日本データベース学会共催 夏のデータベースワークショップ(DBWS2006) 学生研究発表奨励賞<br>受賞対象：澤菜津美*，飯田敏成，森嶋厚行，杉本重雄，北川博之 「Webページ移動先発見のためのクローリング手法の提案」</li>
+                           <li>平成18年3月 電子情報通信学会 第17回データ工学ワークショップ(DEWS2006) 優秀プレゼンテーション賞<br>受賞対象：飯田敏成*, 澤菜津美，森嶋厚行, 杉本重雄, 北川博之 「WWWのリンク切れで困っていませんか？ - The WISH Project -」</li>
+                           <li>平成18年度3月 筑波大学 平成17年度 図書館情報メディア研究科長表彰：大河原俊明君</li>
+                           <li>平成17年7月 電子情報通信学会データ工学研究会，情報処理学会データベースシステム研究会，日本データベース学会共催 夏のデータベースワークショップ(DBWS2005) 学生研究発表奨励賞<br>受賞対象： 石川憲一*，森嶋厚行，杉本重雄 「複数デバイスで記録されたコンテンツの分類・同期システムの提案」</li>
+                           <li>平成17年7月 電子情報通信学会データ工学研究会，情報処理学会データベースシステム研究会，日本データベース学会共催 夏のデータベースワークショップ(DBWS2005) 学生研究発表奨励賞<br>受賞対象： 飯田敏成*，澤菜津美，森嶋厚行，杉本重雄，北川博之 「Webリンク切れ自動修正のための公開実験システムの開発」</li>
+                           <li>平成17年3月 筑波大学 平成16年度 図書館情報専門学群 優秀学生表彰: 飯田敏成君</li>
+                           <li>平成17年3月 電子情報通信学会 第16回データ工学ワークショップ(DEWS2005) 優秀プレゼンテーション賞<br>受賞対象：中溝昌佳*, 飯田敏成, 森嶋厚行, 杉本重雄, 北川博之 「Webリンク切れの自動修正における信頼度の高いリンク情報の利用」</li>
+                           <li>平成17年3月 芝浦工業大学大学院工学研究科電気電子情報専攻 専攻賞: 中溝昌佳君</li>
+                           <li>平成16年3月 電子情報通信学会 第15回データ工学ワークショップ(DEWS2004) 優秀プレゼンテーション賞<br>受賞対象： 中溝昌佳*，有山智洋，森嶋厚行，杉本重雄，北川博之 「WWWにおけるリンク一貫性維持支援システムの開発」</li>
+                           <li>平成16年3月 情報処理学会 平成15年度論文賞<br>受賞対象：油井誠*，森嶋厚行*「PostgreSQLを用いた多機能なXMLデータベース環境の構築」情報処理学会論文誌：データベース, Vol. 44, No. SIG 12 (TOD 19), pp. 11-22, 情報処理学会.</li>
+                           <li>平成15年3月 情報処理学会 第65回全国大会大会奨励賞<br>受賞対象： 小島章*，森嶋厚行「RDB上のXMLビューに対するDOM操作実現機構」</li>
+                           <li>平成14年7月 油井誠君の卒業研究テーマがIPA未踏ユースに採択<br>採択テーマ：油井誠「RDBを利用したXML Storage環境におけるXPathの実装」(スーパークリエータ認定)<br>関連論文： 油井誠，森嶋厚行「PostgreSQLを用いた多機能なXMLデータベース環境の構築」 情報処理学会論文誌：データベース, Vol. 44, No. SIG 12 (TOD 19), pp. 11-22, 情報処理学会.</li>
+                           <li>平成13年5月 <a href="letter.pdf">ACM SIGMOD 2001 Best Paper Award次点</a><br>対象論文： Mary Fernandez, Atsuyuki Morishima**, Dan Suciu, "Efficient Evaluation of XML Middle-ware Queries" **principal author</li>
+                           <li>平成11年1月 文部省科学研究費特定領域研究「メディア統合および環境統合のための高機能データベースシステムの研究開発」公開シンポジウム ベストポスター賞<br>受賞対象： 筑波大学北川研究室(主要著者の一人として執筆)「異種情報源統合環境InfoWeaver」</li>
+                           <li>平成10年3月 電子情報通信学会第9回データ工学ワークショップ(DEWS'98)奨励賞<br>受賞対象： 森嶋厚行*，北川博之「視覚的ユーザインタフェースを用いた異種情報源統合利用支援」
+                           </li>
+                        </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Research achievements (this year)-->
+            <section class="resume-section" id="research-achievements-this-year">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">今年の業績 (過去の業績は<a href="past-publications-j.html">こちら</a>) (Last updated in 2015)</h2>
+                        <div class="subheading mb-3">学術雑誌論文</div>
+                        <ul>
+                            <li>太田壮祐，森嶋厚行，天笠俊之，品川徳秀．「関数従属性と包含従属性を用いたXML-RDBマッピングの提案と評価」(Proposal and Evaluation of an XML-RDB Mapping Method Based on Functional and Inclusion Dependencies)，情報処理学会論文誌データベース, Vol.5, No.3, pp.1-14, 2012年9月.</li>
+                            <li>福角駿，森嶋厚行，品川徳秀，北川博之．「DB抽象化とゲーム理論に基づくマイクロブログからの構造データ抽出GWAPの開発」 (Applying DB Abstraction and Game Theory to Development of a GWAP for Extracting Structured Data from Microblogs), 日本データベース学会論文誌, Vol 11, No. 1, pp. 19-24, 2012年6月.</li>
+                            <li>高橋公海，森嶋厚行，弓矢英梨佳，杉本重雄，北川博之． 「ビットシグネチャを用いたWebページの包含従属性発見の効率化」 (Using Bit-Signatures to Increase Efficiency in Finding Inclusion Dependencies in Web Pages)<br>情報処理学会論文誌データベース, Vol.3, No. 3, pp. 1-10．2010年9月.</li>
+                            <li>只石正輝，森嶋厚行，田島敬史．「効率のよい子供／子孫問合せ処理のためのグラフデータ格納手法の提案」 (Proposal of a Graph Data Storage for Efficient Processing of Child/Descendant Queries)<br>日本データベース学会論文誌, Vol. 7, No. 3, pp. 55-60, 2008年12月．</li>
+                            <li>高橋公海，森嶋厚行，松本亜季子，杉本重雄，北川博之． 「Web コンテンツ管理のための一貫性制約発見支援」 (A Method For Integrity Constraint Discovery for the Management of Web Contents)<br>日本データベース学会論文誌, Vol. 7, No. 3, pp. 25-30, 2008年12月．</li>
+                            <li>澤菜津美，森嶋厚行，杉本重雄，北川博之 「HTMLラッパ自動構築手法の提案」 (Proposal of a Method for Automatic Construction of HTML Wrappers)<br>日本データベース学会論文誌, Vol. 7, No. 1, pp. 263-268, 2008年6月, 日本データベース学会．</li>
+                            <li>三森祐一郎，森嶋厚行， 「分散ファイル群の高度管理を目的としたミドルウェアの提案」 (Proposal of Middleware for the Advanced Management of Distributed Collections of Files)<br>日本データベース学会Letters, Vol. 6, No. 2, pp. 17-20, 2007年9月, 日本データベース学会．</li>
+                            <li>澤菜津美，森嶋厚行，杉本重雄，北川博之 「バックエンドDBを持たないWebコンテンツ管理のためのラッピング言語」 (A Wrapping Language for the Content Management of Web Sites without Backend DBs)<br>日本データベース学会Letters, Vol. 6, No. 2, pp. 69-72, 2007年9月, 日本データベース学会．</li>
+                            <li>澤菜津美，森嶋厚行，飯田敏成，杉本重雄，北川博之 「Webページ移動先発見のための効率的なクローリング手法」 (An Efficient Crawling Method for Finding Moved Web Pages)<br>情報処理学会論文誌：データベース, Vol 48, No. SIG 11(TOD 34), 2007年6月.</li>
+                            <li>石川憲一，森嶋厚行，田島敬史 「大規模ドキュメント空間統合管理システムの提案」 (Proposal of an Integrated Document Space Management System)<br>日本データベース学会Letters, Vol. 5, No. 2, pp. 89-92, 2006年9月, 日本データベース学会．</li>
+                            <li>大河原俊明，森嶋厚行，杉本重雄 「ベンチマークによるデータ変換支援ツール評価の一手法」 (A Benchmark Approach to the Evaluation of Data Exchange Tools)<br>日本データベース学会Letters, Vol. 5, No. 1, pp. 73-76, 2006年6月，日本データベース学会．</li>
+                        </ul>
+
+                        <div class="subheading mb-3">招待論文</div>
+                        <ul>
+                            <li>Atsuyuki Morishima, Takanori Kawashima, Takashi Harada, Norihiko Uda, Ikki Ohmukai. L-Crowd: A Library Crowdsourcing Project by LIS and CS Researchers in Japan (Invited Talk and paper),<br>International Conference on Digital Libraries (ICDL2013), pp. 40-47, November 2013.</li>
+                        </ul>
+
+                        <div class="subheading mb-3">審査付国際会議論文</div>
+                        <ul>
+                            <li class="new"><span class="fa-li lbl-awards">Best Paper Award</span>Shun Fukusumi, Atsuyuki Morishima, Hiroyuki Kitagawa. Game Aspect: An Approach to Separation of Concerns in Crowdsourced Data Management.<br>27th International Conference on Advanced Information Systems Engineering (CAiSE 2015), pp. 6-19, Stockholm, Sweden, June 8-12, 2015. (Acceptance rate=13.1%)</li>
+                            <li>Atsuyuki Morishima, Shiori Tomita, Takanori Kawashima, Takashi Harada, Norihiko Uda, Sho Sato, Yukihiko Abematsu. A Crowdsourcing Approach for Finding Misidentifications of Bibliographic Records. iConference 2014, pp. 177-191, 2014.</li>
+                            <li>Aoki Hideto, Atsuyuki Morishima. A Divide-and-Conquer Approach for Crowdsourced Data Enumerataion.<br>SocInfo 2013, pp. 60-74, November 2013.</li>
+                            <li>Atsuyuki Morishima, Erika Yumiya, Masami Takahashi, Shigeo Sugimoto, Hiroyuki Kitagawa. Efficient Filtering and Ranking Schemes for Finding Inclusion Dependencies on the Web. CIKM 2013, pp. 763-768, Oct. 2013.</li>
+                            <li class="new">Kenji Gonnokami, Atsuyuki Morishima, Hiroyuki Kitagawa. Condition-Task-Store: A Declarative Abstraction for Microtask-based Complex Crowd-sourcing.<br>DBCrowd 2013: 20-25, August 2013.</li>
+                            <li>Yui Yasunaga, Atsuyuki Morishima, Hiroki Sodeyama, Masateru Tadaishi, Shigeo Sugimoto. "Gradation: A Pay-as-You-Go Style Hybrid Query Language for Structured and Text Data." Proceedings of the 2013 iConference, pp.209-220, Fort Worth, Texas, USA,Feb 12-15,2013.</li>
+                            <li>Tomomi Mitsuishi, Atsuyuki Morishima, Norihide Shinagawa, Hideto Aoki. "Efficient Evaluation of Human-powered Joins with Crowdsourced Join Pre-filters." The 7th International Conference on Ubiquitous Information Management and Communication (ICUIMC2013), 6 pages, Kota Kinabalu, Malaysia, January 17-19, 2013.</li>
+                            <li>Sousuke Ohta, Atsuyuki Morishima, Toshiyuki Amagasa, Norihide Shinagawa. C-Mapping: A Flexible XML-RDB Mapping Method based on Functional and Inclusion Dependencies. ACM the 27th Symposium On Applied Computing (SAC 2012), pp. 834-839, Riva del Garda (Trento), Italy March 26-30, 2012.</li>
+                            <li>Atsuyuki Morishima, Keishi Tajima, Masateru Tadaishi. Optimal Tree Node Ordering for Child/Descendant Navigations. The 26th International Conference on Data Engineering (ICDE 2010), pp. 840-843, Long Beach, California, USA, March 1-6, 2010.(short)<br>[<a href="./icde10cameraDebug.pdf">Bug-fixed version here</a>]</li>
+                            <li>Masami Takahashi, Atsuyuki Morishima, Shigeo Sugimoto, Hiroyuki Kitagawa. A Constraint-based Tool for Data Integrity Management on the Web. The 4th International Conference on Ubiquitous Information Management and Communication (ICUIMC 2010), pp. 144-146, January 14-15, 2010, SKKU, Suwon, Korea.</li>
+                            <li>Atsuyuki Morishima, Akiyoshi Nakamizo, Toshinari Iida, Shigeo Sugimoto, Hiroyuki Kitagawa. Bringing Your Dead Links Back to Life: A Comprehensive Approach and Lessons Learned. The 20th ACM Conference on Hypertext and Multimedia (ACM Hypertext 2009), pp. 15-24, Torino, Italy, June 29th -July 1st, 2009.</li>
+                            <li>Natsumi Sawa, Atsuyuki Morishima, Shigeo Sugimoto, Hiroyuki Kitagawa. Wraplet: Wrapping Your Web Contents with a Lightweight Language. Proc. of IEEE The Third International Conference on Signal-Image Technology and Internet-based Systems (SITIS' 2007), pp. 387-394, Shanghai, Dec. 2007.</li>
+                            <li>Kenichi Ishikawa, Atsuyuki Morishima and Shigeo Sugimoto. Extension of File Server Functions for Management of Community-Shared Information.<br>Proc. of the Second International Special Workshop on Databases for Next Generation Researchers (SWOD 2006), pp. 1-4, April 2006.</li>
+                            <li>Toshiaki Okawara, Atsuyuki Morishima, and Shigeo Sugimoto. An Approach to the Benchmark Development for Data Exchange Tools.<br>The IASTED International Conference on Databases and Applications (DBA 2006), pp. 19-25, Innsbruck, Austria, Feb. 14-16, 2006.
+                            </li>
+                        </ul>
+
+                        <div class="subheading mb-3">審査付国際会議ポスター/デモンストレーション論文</div>
+                        <ul>
+                            <li>Atsuyuki Morishima, Sihem Amer-Yahia, Senjuti Basu Roy. Crowd4U: An Initiative for Constructing an Open Academic Crowdsourcing Network. Second AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2014) WorkInProgress, pp. 50-51, Pittsburgh, USA, November 2-4, 2014.</li>
+                            <li>Atsuyuki Morishima, Norihide Shinagawa, Tomomi Mitsuishi, Hideto Aoki, Shun Fukusumi. CyLog/Crowd4U: A Declarative Platform for Complex Data-centric Crowdsourcing, 38th International Conference on Very Large Data Bases (VLDB2012), PVLDB 5(12): 1918-1921 (2012),Istanbul, Turkey, Aug 27-31,2012.</li>
+                            <li>Erika Yumiya, Atsuyuki Morishima, Masami Takahashi, Shigeo Sugimoto, Hiroyuki Kitagawa. Filtering and Ranking Schemes for Finding Inclusion Dependencies on the Web. The 21st International World Wide Web Conference (WWW 2012), pp. 647-648, Lyon, France, April 16-20, 2012 (poster)</li>
+                            <li>Atsuyuki Morishima, Akiyoshi Nakamizo, Toshinari Iida, Shigeo Sugimoto, Hiroyuki Kitagawa. Why are Moved Web Pages Difficult to Find? The WISH Approach. The 18th International World Wide Web Conference (WWW 2009), pp. 1117-1118, Madrid, Spain, April 20-24, 2009 (poster)</li>
+                            <li>Atsuyuki Morishima, Akiyoshi Nakamizo, Toshinari Iida, Shigeo Sugimoto, Hiroyuki Kitagawa. PageChaser: A Tool for the Automatic Correction of Broken Web Links. The 24th International Conference on Data Engineering (ICDE 2008), Cancun, Mexico, April 7-12, 2008. pp. 1486-1488</li>
+                            <li>Shoji Itoh, Hanxiong Chen, Takashi Furumura, Takahiro Katagiri, Atsuyuki Morishima, Kengo Nakajima, Tetsuro Ogi and Osamu Tatebe. Design of Immersive Visual Data-Mining System on Data Management Bases and Next Phase of Automatic Performance Tuning Technology.<br>The Second international Workshop on Automatic Performance Tuning, September 20 - 21, 2007, Koshiba Hall, University of Tokyo, Tokyo, Japan</li>
+                        </ul>
+
+                        <div class="subheading mb-3">招待講演・パネル・特別セッション・セミナートークなど</div>
+                        <ul>
+                            <li class="new">Atsuyuki Morishima, Takanori Kawashima, Takashi Harada, Norihiko Uda, Ikki Ohmukai. L-Crowd: A Library Crowdsourcing Project by LIS and CS Researchers in Japan, <br>International Conference on Digital Libraries (ICDL2013), November 2013. (to appear)</li>
+                            <li class="new">森嶋厚行. Crowd4U/L-Crowd: アカデミアによる高度クラウドソーシングプラットフォームと図書館情報分野への応用.<br>第45回ディジタル図書館ワークショップ/情報処理学会第112回情報基礎とアクセス技術研究会合同研究会，2013年9月26日</li>
+                            <li>森嶋厚行. Crowd4U: アカデミアと応用分野専門家が構築する高度クラウドソーシングプラットフォーム (招待講演)．<br>第27回人工知能学会全国大会，2013年6月5日</li>
+                            <li>DEIM2013 特別セッション「クラウドソーシング」 コーディネータ，2013年3月</li>
+                            <li>Atsuyuki Morishima. "Declarative Data-centric Crowd sourcing,"The 7th Korea-Japan Database Workshop 2012,(KJDB 2012) November 30 - December 2, 2012.</li>
+                            <li>森嶋厚行.「クラウドソーシングという新たな潮流に触れて」, 第14回図書館総合展,　パシフィコ横浜,神奈川県,2012年11月22日.</li>
+                            <li>森嶋厚行「人と計算機の知の融合のためのプログラミング言語と開発環境」<br>電子情報通信学会大会2011, JSTさきがけセッション：人と社会のための情報処理, 2011年3月16日</li>
+                            <li>森嶋厚行「人と計算機の知の融合のためのプログラミング言語と開発環境」<br>合同エージェントワークショップ＆シンポジウム2010 (JAWS2010), JSTさきがけセッション， 富良野，2010年10月27日-29日</li>
+                            <li>Atsuyuki Morishima. A Database Abstraction for Data-intensive Social Applications.<br>The 5th Korea-Japan Database Workshop 2010 (KJDB2010), May 28-29, 2010. ShineVille Luxury Resort, Seogwipo, Jeju Province, Korea.</li>
+                            <li>森嶋厚行「情報空間ガバナンス，困っていませんか？」<br>NEC Ｃ＆Ｃイノベーション研究所, 奈良，2008年1月25日</li>
+                            <li>森嶋厚行「開放型情報空間のガバナンスに挑む」(講演及びパネル)<br>DBWeb2007,東京大学生産技術研究所，2007年11月27-28日</li>
+                            <li>Atsuyuki Morishima. Where Have the Web Pages Gone? The WISH Approach<br>Tunisia-Japan Symposium on Society, Science & Technology (TJASSST) 2007, 2007年10月29日-11月2日</li>
+                            <li>Atsuyuki Morishima. Are Your Information Spaces Governed?<br>Asian Workshop on Next-Generation Search, Awaji, Japan, 2007年8月29-31日</li>
+                            <li>森嶋厚行「情報空間ガバナンス，できていますか？」<br>第7回計算情報学研究会,筑波大学計算科学研究センター，つくば，2007年8月17日</li>
+                            <li>Atsuyuki Morishima. Finding New Locations of Moved Web Pages.<br>The 3rd Korea-Japan Database Workshop 2007(KJDB2007), July 7-8, 2007, Novotel Ambassador Busan Hotel, Busan, Korea.</li>
+                        </ul>
+
+                        <div class="subheading mb-3">審査付国際会議口頭発表</div>
+                        <ul>
+                            <li>Atsuyuki Morishima. Volunteer-Based Crowdsourcing with Crowd4U. Citizen + X Workshop Technical Report, Second AAAI Conference on Human Computation and Crowdsourcing (HCOMP 2014), pp. 28, Pittsburgh, USA, November 2, 2014.</li>
+                            <li>Atsuyuki Morishima, Keishi Tajima. InfoSpace Governance Technologies for People Working Together. <br>SIAM Conference on Parallel Processing for Scientific Computing, Atlanta, Georgia, March 13-15, 2008</li>
+                        </ul>
+
+
+                        <div class="subheading mb-3">審査付国内会議論文</div>
+                        <ul>
+                            <li>三津石智巳，森嶋厚行，品川徳秀，青木秀人．「Human-powered Join処理に対するクラウドソーシングを用いた効率化手法の評価」(Evaluation of a Crowdsourced Method for the Efficient Processing of Human-powered Joins), 第3回ソーシャルコンピューティングシンポジウム (SoC 2012), 青山学院大学，東京，2012年6月23日．</li>
+                            <li><span class="lbl-awards">企業賞(サイボウズ・ラボ賞)</span>袖山広輝，只石正輝，安永ゆい，品川徳秀，森嶋厚行. 「構造/テキストWebデータのためのハイブリッド問合せ言語」(A Hybrid Query Language for Structured/Text Web Data)，第4回Webとデータベースに関するフォーラム(WebDB Forum 2011)予稿集, 1G-2-3(8 pages), 工学院大学，東京, 2011年11月4日.</li>
+                            <li><span class="lbl-awards">学生奨励賞</span>高橋公海，森嶋厚行，杉本重雄，北川博之． 「ビットシグネチャを用いたWebページの包含従属性発見の効率化」 (A Bit-Signature-based Method to Efficiently Find Inclusion Dependencies in Web Pages)<br>第2回Webとデータベースに関するフォーラム(WebDB Forum) 2009, 8 pages, 2009年11月.</li>
+                            <li>伊藤弘人, 森嶋厚行 「ファイルに関する多様な情報を利用したファイル削除候補の発見」(Using Various Information on Files to Find Deletable Ones)<br>Webとデータベースに関するフォーラム(WebDB Forum) 2009, 8 pages, 2009年11月.</li>
+                            <li>飯田 敏成, 澤 菜津美, 森嶋 厚行, 杉本 重雄, 北川 博之 「Webページ移動先探索処理の効率化」(Efficient Search for Moved Web Pages)<br>電子情報通信学会第18回データ工学ワークショップ (DEWS2007), 7 pages, 広島 元宇品, 2007年3月.</li>
+                            <li>石川 憲一, 森嶋 厚行, 田島 敬史 「メタデータDBのための到達ノード問合せと更新処理の効率化」(Efficient Evaluation of Reachable Node Queries and Updates for Metadata Databases)<br>電子情報通信学会第18回データ工学ワークショップ (DEWS2007), 8 pages, 広島 元宇品, 2007年3月.</li>
+                            <li>澤 菜津美, 森嶋 厚行, 飯田 敏成, 杉本 重雄, 北川 博之 「コンテンツ一貫性制約を用いたWebサイト管理手法の提案」(Proposal of a Web-Site Management Method Using Content Integrity Constraints )<br>電子情報通信学会第18回データ工学ワークショップ (DEWS2007), 7 pages, 広島 元宇品, 2007年3月.</li>
+                            <li><span class="lbl-awards">電子情報通信学会 第18回データ工学ワークショップ(DEWS2007) 優秀プレゼンテーション賞受賞</span>望月 祥司, 児玉 麻莉子, 森嶋 厚行, 石川 憲一, 田島 敬史 「大規模ディレクトリ空間視覚化のための論理構造抽出」(Extraction of Logical Structures for the Visualization of Large Directory Spaces)<br>電子情報通信学会第18回データ工学ワークショップ (DEWS2007), 8 pages, 広島 元宇品, 2007年3月.</li>
+                            <li>大河原俊明, 森嶋厚行, 杉本重雄 「データ変換支援ツール評価のためのベンチマーク構築フレームワークの提案」(Proposal of a Framework to Develop Benchmarks for Data Exchange Support Tool)<br>電子情報通信学会第17回データ工学ワークショップ (DEWS2006), 8 pages, 沖縄 宜野湾, 2006年3月.</li>
+                            <li>石川 憲一, 鈴木 勇, 森嶋 厚行, 杉本 重雄 「共有ファイルシステムにおけるコミュニティ情報管理ツールの提案」(Proposal of a Tool to Manage Community Information in Shared File Servers)<br>電子情報通信学会第17回データ工学ワークショップ (DEWS2006), 8 pages, 沖縄 宜野湾, 2006年3月.</li>
+                        </ul>
+
+                        <div class="subheading mb-3">研究会発表</div>
+                        <ul>
+                            <li>丹治寛佳,森嶋厚行,井ノ口宗成.「Web情報を用いた災害状況把握のためのクラウドソーシング用マイクロタスク設計の試み」(An Attempt to Design Microtasks to Use Web Data To Infer Disaster Situations)<br>2013年電子情報通信学会　総合大会講演論文集,1page, 岐阜大学,2013年3月19日.</li>
+                            <li>2．富田栞,森嶋厚行,川島隆徳,宇陀則彦,原田隆史.「クラウドソーシングによる書誌誤同定発見のためのタスク設計」(Design of Crowdsourcing Tasks for Finding Bibliographic Misidentifications))<br>2013年電子情報通信学会　総合大会講演論文集 ,1page, 岐阜大学,2013年3月19日.</li>
+                            <li>青木秀人，森嶋厚行，三津石智巳．「クラウドソーシングによるデータ収集のためのタスク生成手法の提案」(英題無し)<br>第5回データ工学と情報マネジメントに関するフォーラム(DEIM 2013),7 pages, 福島県郡山市,2013年3月4日．</li>
+                            <li>権守健嗣，森嶋厚行.「宣言的記述によるクラウドソーシングシステムの開発支援」(英題無し)<br>第5回データ工学と情報マネジメントに関するフォーラム(DEIM 2013),8 pages, 福島県郡山市,2013年3月4日．</li>
+                            <li><span class="lbl-awards">学生プレゼンテーション賞</span>三津石智巳，森嶋厚行，青木秀人.「Crowdsourced Join Pre-filterによるHuman-powerd Join処理効率化の評価」(英題無し)<br>第5回データ工学と情報マネジメントに関するフォーラム(DEIM 2013),8 pages, 福島県郡山市,2013年3月4日．</li>
+                            <li><span class="lbl-awards">優秀インタラクティブ賞</span>安永ゆい，森嶋厚行，袖山広輝.「構造/テキストWeb データを対象としたPay-as-You-Go スタイルの問合せ構築支援手法」(英題無し)<br>第5回データ工学と情報マネジメントに関するフォーラム(DEIM 2013),8 pages, 福島県郡山市,2013年3月5日．</li>
+                            <li>三津石智巳, 青木秀人, 福角駿, 宮田愛, 森嶋厚行, 品川徳秀, 逸村裕.「筑波大学におけるクラ ウドソーシング技術を用いたマイクロボランティアの試み」, 大学ICT推進協議会2012年度年次大会,5pages, 神戸国際会議場,　2012年12月17-19日.</li>
+                            <li>安永ゆい，袖山広輝，森嶋厚行，只石正輝 「構造/テキストWebデータ用ハイブリッド問合せ言語を用いた問合せ構築支援」(Support of Query Construction with a Hybrid Query Language for Structured and Text Web Data)<br>情報処理学会第74回全国大会講演論文集(第1分冊)2N-6, pp. 597-598, 名工大，2012年3月．[<a href="./papers/20120306IPSJ74.pdf">slides</a>]</li>
+                            <li>財前涼，森嶋厚行 「クラウドソーシングを用いた情報信憑性判断支援のための情報源検索」(Crowdsourced Retrieval of Information Sources for the Judgement of Information Credibility)<br>情報処理学会第74回全国大会講演論文集(第1分冊)3N-1, pp. 603-604, 名工大，2012年3月．</li>
+                            <li>三津石智巳，森嶋厚行，品川徳秀，青木秀人 「クラウドソーシングによるHuman-powered Joinの効率化」(英題無し)<br>第4回データ工学と情報マネジメントに関するフォーラム(DEIM 2012), 6 pages, 神戸，2012年3月.</li>
+                            <li>福角駿，森嶋厚行，品川徳秀 「GWAPによるマイクロブログからの構造データ抽出」(英題無し )<br>第4回データ工学と情報マネジメントに関するフォーラム(DEIM 2012), 8 pages, 神戸，2012年3月.</li>
+                            <li>青木秀人，森嶋厚行，品川徳秀，三津石智巳 「データ中心型クラウドソーシングのための網羅演算の提案」(英題無し)<br>第4回データ工学と情報マネジメントに関するフォーラム(DEIM 2012), 7 pages, 神戸，2012年3月.</li>
+                            <li>三津石智巳，望月祥司，森嶋厚行 「人と計算機を情報資源とする統合情報検索システムCySearchの提案」（CySearch: Proposal of a System for the Blended Search of Human and Computer Information Sources）<br>情報処理学会第73回全国大会講演論文集(第1分冊), pp. 683-684, 東工大，2011年3月.</li>
+                            <li>安永ゆい，望月祥司，森嶋厚行 「GWAPによるオントロジ構築手法の提案」(Proposal of a Method fopr Building Ontologies with GWAPs)<br>情報処理学会第73回全国大会講演論文集(第1分冊), pp. 765-766, 東工大，2011年3月．</li>
+                            <li>弓矢英梨佳，高橋公海，森嶋厚行，杉本重雄，北川博之． 「Webコンテンツにおける包含従属性発見支援のためのランキング手法」（A Ranking Method for the Discovery of Inclusion Dependencies in Web Contents）<br>第3回データ工学と情報マネジメントに関するフォーラム(DEIM 2011), 8 pages, 静岡県伊豆市，2011年2月.</li>
+                            <li>石井悠太，森嶋厚行 「抽象的な記述が可能なWeb からのデータ抽出言語の提案」(A Wrapping Language that Allows us to Write Abstract Wrapping Rules for Extracting Data from Web Contents)<br>第3回データ工学と情報マネジメントに関するフォーラム(DEIM 2011), 8 pages, 静岡県伊豆市，2011年2月.</li>
+                            <li>太田壮祐，森嶋厚行，天笠俊之 「関数従属性と包含従属性を用いたXML-RDBマッピング」(An XML-RDB Mapping Method using Functional and Inclusion Dependencies)<br>第3回データ工学と情報マネジメントに関するフォーラム(DEIM 2011), 8 pages, 静岡県伊豆市，2011年2月.</li>
+                            <li>弓矢英梨佳，高橋公海，森嶋厚行，杉本重雄，北川博之． 「ヒューリスティクスを用いたWeb コンテンツの包含従属性発見の効率化」（Efficient Discovery of Inclusion Dependencies Existing in Web Contents Based on Heuristics）<br>情報処理学会創立50周年記念（第72回）全国大会講演論文集(第5分冊), pp. 237-238, 東大，2010年3月.</li>
+                            <li>袖山広輝，森嶋厚行 「ブラウザでの表示位置に着目したWebコンテンツの書換えによる応用処理支援」(Supporting Web Content Applications by Page Rewritting Based on Display Positions on Browers)<br>情報処理学会創立50周年記念（第72回）全国大会講演論文集(第1分冊), pp. 759-760, 東大，2010年3月．</li>
+                            <li>太田壮祐，森嶋厚行，天笠俊之，只石正輝 「一貫性制約を考慮したデータ管理のためのXML-RDBマッピング手法」(An XML-RDB Mapping Method Considering Integrity Constraints)<br>情報処理学会創立50周年記念（第72回）全国大会講演論文集(第1分冊), pp. 905-906, 東大，2010年3月．</li>
+                            <li>山元　潤，森嶋厚行 「非公開データを用いた人物検索システムの開発」(Development of a people search system using unpublished data)<br>情報処理学会創立50周年記念（第72回）全国大会講演論文集(第1分冊), pp. 725-726, 東大，2010年3月．</li>
+                            <li>安西則晃 , 森嶋厚行 「計算機と人との協調によるデータ管理のためのデータベース言語の提案」(A Database Language for Collaborative Data Management by Computers and People)<br>情報処理学会研究報告データベースシステム(DBS), 2009-DBS-149(12), pp. 1-8, 慶應，2009年11月．</li>
+                            <li>石井 悠太 , 森嶋 厚行 , 杉本 重雄 , 北川 博之 「ラッピング言語を用いたWebサイトの再構築手法の提案」(A Method to Reconstruct Web Sites using a Wrapping Language)<br>情報処理学会研究報告データベースシステム(DBS), 2009-DBS-149(13), pp. 1-8, 慶應，2009年11月．</li>
+                            <li>三森祐一郎，森嶋厚行， 「分散ファイル群高度管理のためのファイル関連の発見エンジンの開発」 (Development of a File Relationship Discovery Engine for Advanced Management of Distributed Files)<br>データ工学と情報マネジメントに関するフォーラム (DEIM Forum 2009), 8 pages, 静岡，2009年3月．</li>
+                            <li>高橋公海，森嶋厚行，杉本重雄，北川博之．「Webページを対象とした包含従属性の効率的な発見手法」 (An Efficient Method to Find Inclusion Dependencies in Web Pages)<br>データ工学と情報マネジメントに関するフォーラム (DEIM Forum 2009), ?? pages, 静岡，2009年3月．</li>
+                            <li>只石正輝，森嶋厚行，田島敬史．「任意のグラフノードを起点とする正規パス式の評価手法」 (A Method to Evaluate Regular Path Expressions from Any Graph Node)<br>データ工学と情報マネジメントに関するフォーラム(DEIM Forum 2009)，?? pages, 静岡，2009年3月.</li>
+                            <li><span class="lbl-awards">学生奨励賞</span>高橋公海，森嶋厚行，松本亜季子，杉本重雄，北川博之．「Web コンテンツ一貫性管理のための制約発見支援」 (Support of Constraint Discovery for the Integrity Management of Web Contents)<br>情報処理学会研究報告, vol. 2008, No. 146 (2008-DBS-146), pp. 127-132, 福島，2008年9月．</li>
+                            <li>只石正輝，森嶋厚行，田島敬史． 「大規模グラフ構造に対する効率的な子供／子孫問合せの処理手法の提案」 (Proposal of an Efficient Method to Process Child/Descendant Queries for Large Graph Structures)<br>情報処理学会研究報告 Vol.2008, No.88(2008-DBS-146), pp. 229-234, 福島，2008年9月．</li>
+                            <li>三森祐一郎，森嶋厚行， 「分散ファイル群高度管理を目的としたファイル関連の発見支援機構」 (A Mechanism to Support File Relationship Discovery for Advanced Management of Distributed Files) 情報処理学会研究報告, vol. 2008, No. 146 (2008-DBS-146), pp. 319-324, 福島, 2008年9月．</li>
+                            <li>只石正輝，森嶋厚行，田島敬史「大規模木構造データに対する正規パス式の効率的な処理方式の検討」 (On an Efficient Processing Scheme of Regular Path Expressions for Large Tree Structures)<br>第70回情報処理学会全国大会講演論文集(第1分冊), pp. 603-604, つくば，2008年3月．</li>
+                            <li>高橋公海，澤菜津美，森嶋厚行，杉本重雄，北川博之「Webコンテンツ一貫性管理支援ツールの開発」 (Development of a Support Tool for the Maintenance of Web Content Integrity)<br>第70回情報処理学会全国大会講演論文集(第5分冊), pp. 189-190, つくば，2008年3月．</li>
+                            <li>佐藤弘樹，三森祐一郎，森嶋厚行，望月祥司，田島敬史 「コミュニティ情報空間管理のための複数視点ブラウザの開発」 (Development of a Browser allowing Various Views for the Manageement of Community Information Spaces)<br>第70回情報処理学会全国大会講演論文集(第4分冊), pp. 255-256, つくば，2008年3月．</li>
+                            <li>澤菜津美，森嶋厚行，杉本重雄，北川博之「情報統合利用を目的としたHTMLページのラッピング支援」 (Wrapping Support of HTML Pages for Information Integration)<br>電子情報通信学会第19回データ工学ワークショップ (DEWS2008), 7 pages, 宮崎, 2008年3月.</li>
+                            <li>三森祐一郎，森嶋厚行「コミュニティ情報空間管理のための制約記述と処理手法の提案」 (Proposal of a Constraint Description and Processing Method for the Management of Community Information Spaces)<br>電子情報通信学会第19回データ工学ワークショップ (DEWS2008), 6 pages, 宮崎, 2008年3月.</li>
+                            <li><span class="lbl-awards">学生研究発表奨励賞</span>澤菜津美，森嶋厚行，杉本重雄，北川博之 「非定型Webコンテンツ管理のための軽量ラッピング言語」 (A Lightweight Wrapping Language for the Management of Non-Template-Based Web Contents)<br>情報処理学会研究報告 Vol.2007, No.65 (2007-DBS-143), pp.527-532. 電子情報通信学会技術研究報告 Vol.107, No.131, pp.527-532, 仙台 2007年7月．</li>
+                            <li><span class="lbl-awards">学生研究発表奨励賞</span>三森祐一郎，森嶋厚行 「メタデータを利用した高度ファイル操作のためのミドルウェアの提案」 (Proposal of Middleware for Metadata-powered Advanced File Operations )<br>情報処理学会研究報告 Vol.2007, No.65 (2007-DBS-143), pp. 180-194. 電子情報通信学会技術研究報告 Vol.107, No.131, DE2007-53, pp. 189-194, 仙台 2007年7月．</li>
+                            <li><span class="lbl-awards">第69回情報処理学会全国大会 学生奨励賞</span>三森祐一郎，森嶋厚行 「データベース統合のための作業手順作成支援システムの開発」(Development of a Support System for Constructing Database Integration Workflows)<br>第69回情報処理学会全国大会講演論文集(第1分冊), pp. 493-494, 東京，2007年3月．</li>
+                            <li><span class="lbl-awards">学生研究発表奨励賞</span>石川憲一，森嶋厚行，田島敬史 「大規模ドキュメント空間管理のための意味ファイルシステムの構築」 (Development of a Semantic File System for Managing Large Document Spaces)<br>情報処理学会研究報告 Vol.2006, No.78(2006-DBS-140(II)), pp. 497-503. 電子情報通信学会技術研究報告 Vol. 106, No. 150, pp. 139-144 (DE2006-115), 新潟，2006年7月.</li>
+                            <li><span class="lbl-awards">学生研究発表奨励賞</span>澤菜津美，飯田敏成，森嶋厚行，杉本重雄，北川博之 「Webページ移動先発見のためのクローリング手法の提案」 (Proposal of a Crawling Method for Finding Moved Web Pages)<br>情報処理学会研究報告 Vol.2006, No.78(2006-DBS-140(II)), pp. 437-442. 電子情報通信学会技術研究報告 Vol. 106, No.150, pp. 91-95 (DE2006-107), 新潟，2006年7月．</li>
+                        </ul>
+
+
+                        <div class="subheading mb-3">ポスター/デモンストレーション発表</div>
+                        <ul>
+                            <li>三森祐一郎，高橋公海，只石正輝，森嶋厚行，田島敬史，杉本重雄，北川博之，「Webとファイル空間を対象とした情報空間ガバナンス技術」<br>Webとデータベースに関するフォーラム (WebDB forum 2008), 学習院大学創立百周年記念会館, 2008年12月1日-2日.</li>
+                            <li>澤菜津美，三森祐一郎，佐藤弘樹， 高橋公海， 只石正輝， 森嶋厚行，田島敬史，杉本重雄，北川博之，「知の共有」実現のための情報空間ガバナンス技術．<br>データベースとWeb情報システムに関するシンポジウム(DBWeb2007), 東京大学生産技術研究所, 2007年11月27日-28日.</li>
+                            <li>森嶋厚行，飯田敏成，石川憲一，澤菜津美，望月祥司「情報ガバナンスのための次世代メタデータ管理ソリューション」<br>TXテクノロジー・ショーケース イン ツクバ2007, つくば, 2007年2月．</li>
+                            <li><span class="lbl-awards">電子情報通信学会 第17回データ工学ワークショップ(DEWS2006) 優秀プレゼンテーション賞受賞</span>飯田 敏成, 澤 菜津美, 森嶋 厚行, 杉本 重雄, 北川 博之「WWWのリンク切れで困っていませんか？- The WISH Project -」<br>電子情報通信学会第17回データ工学ワークショップ (DEWS2006), 宜野湾, 2006年3月.</li>
+                        </ul>
+
+                        <div class="subheading mb-3">著書</div>
+                        <ul>
+                            <li class="new">Atsuyuki Morishima. CyLog/Crowd4U: A Case Study of a Computing Platform for Cybernetic Dataspaces (Invited Chapter).<br><a href="http://www.springer.com/computer/ai/book/978-1-4614-8805-7">Handbook of Human Computation</a>, Springer, 2014. (to appear)</li>
+                            <li>森嶋厚行「ソーシャル・クラウドソース」, 研究開発の俯瞰報告書 電子情報通信分野(2013年) , 科学技術振興機構研究開発戦略センター, pp. 176-181, 2013.</li>
+                            <li>Shigeo Sugimoto, Jane Hunter, Andreas Rauber, Atsuyuki Morishima (eds.) "Digital Libraries: Achievements, Challenges, and Opportunities - Proceedings of the 9th International Conference on Asian Digital Libraries (ICADL 2006), " Kyoto, Japan, November 2006.</li>
+                        </ul>
+
+                        <div class="subheading mb-3">特許</div>
+
+                        <div class="subheading mb-3">テクニカルレポート・紀要・報告書・商業雑誌記事など</div>
+                        <ul>
+                            <li>森嶋厚行，土方嘉徳「DBWeb2007レポート：Web全体をDBとして扱う次世代技術に産学とOSSコミュニティが注目」, DBマガジン2008年3月号, pp. 28-30, 翔泳社, 2008年</li>
+                        </ul>
+
+                        <div class="subheading mb-3">その他</div>
+                        <ul>
+                            <li>澤菜津美，三森祐一郎，佐藤弘樹， 高橋公海， 只石正輝， 森嶋厚行「情報共有と管理の複雑さに挑む」，筑波大学雙峰祭，2008年10月6-8日</li>
+                        </ul>
+
+                        <div class="subheading mb-3"><a href="past-publications-j.html">過去の業績</a></div>
+
+
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+            <!-- 学会活動・学外貢献-->
+            <section class="resume-section" id="academic-activities">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">学会活動・学外貢献(構築中) (Last updated in 2012)</h2>
+                    <ul class="mb-0">
+                        <li>ACM, IEEE-CS, 情報処理学会，電子情報通信学会，日本データベース学会各会員</li>
+                        <li>2002(平成14)年-2007年(平成19年)3月: 情報処理学会論文誌：データベース(IPSJ TOD)編集委員</li>
+                        <li>2002(平成14)年-: 日本データベース学会Letters編集委員</li>
+                        <li>2003(平成15)年4月-:情報処理学会データベースシステム研究会運営委員会委員</li>
+                        <li>2003(平成15)年4月-:電子情報通信学会データ工学研究専門委員会委員</li>
+                        <li>2003(平成15)年7月-2007(平成19)年6月: ACM SIGMOD日本支部幹事</li>
+                        <li>2003(平成15)年3月：電子情報通信学会DEWS2003プログラム委員(同2004,2006,2007年)</li>
+                        <li>2004(平成16)年3月: International Symposium on Digital Libraries and Knowledge Communities in Networked Information Society (DLKC'04)Program Committee Member</li>
+                        <li>2004(平成16)年3月: DLKC'04 Publications Chair</li>
+                        <li>2005(平成17)年3月：電子情報通信学会DEWS2005プログラム委員会幹事</li>
+                        <li>2005(平成17)年3月: APWeb 2005 Program Committee Member</li>
+                        <li>2005(平成17)年4月: ICDE 2005 Publicity Committee Member</li>
+                        <li>2006(平成18)年4月: DASFAA 2006 Program Committee Member</li>
+                        <li>2006(平成18)年9月: XSym 2006 Program Committee Member</li>
+                        <li>2006(平成18)年11月: ICADL 2006 Publication Chair</li>
+                        <li>2006(平成18)年11月: ICADL 2006 Program Committee Member</li>
+                        <li>2007(平成19)年4月: DASFAA 2007 Program Committee Member</li>
+                        <li>2007(平成19)年9月: VLDB 2007 PhD Workshop Program Committee Member</li>
+                        <li>2007(平成19)年11月: DBWeb2007実行委員会 運営幹事</li>
+                        <li>2008(平成20)年9月: KJDB2008 プログラム委員長</li>
+                        <li>2008(平成20)年10月: ACM CIKM 2008 Track Chair (Data Maintenance, Quality, Reusability, and Adaptability)</li>
+                        <li>2008(平成20)年12月: WebDBフォーラム2008 実行委員長</li>
+                        <li>2009(平成21)年8月: PersDB 2009 Program Committee Member</li>
+                        <li>2009(平成21)年10月: CIKM 2009 Demo Program Committee Member</li>
+                        <li>2009(平成21)年11月: WebDBフォーラム2009 実行副委員長</li>
+                        <li>2010(平成22)年4月: DASFAA2010 財務委員長</li>
+                        <li>2010(平成22)年9月: XSym 2010 Program Committee Member</li>
+                        <li>2010(平成22)年9月: ECDL 2010 Program Committee Member</li>
+                        <li>2010(平成22)年11月: 3PGCIC 2010 Program Committee Member</li>
+                        <li>2010(平成22)年11月: WebDBフォーラム2010 アドバイザ</li>
+                        <li>2011(平成23)年2月: DEIMフォーラム 2011 プログラム委員</li>
+                        <li>2011(平成23)年4月～ 電子情報通信学会データ工学専門研究委員会副委員長</li>
+                        <li>2011: EDBT 2011 Demo Program Committee Member</li>
+                        <li>2011: VLDB 2011 Demo Program Committee Member</li>
+                        <li>2011(平成23)年11月: WebDBフォーラム2011 運営補佐</li>
+                        <li>2012(平成24)年3月: DEIMフォーラム 2012 プログラム委員会幹事</li>
+                        <li>2012: DASFAA 2012 Program Committee Member</li>
+                        <li>2012: VLDB 2012 Demo Program Committee Member</li>
+                     </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- 非常勤講師-->
+            <section class="resume-section" id="part-time-lecturer">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">非常勤講師</h2>
+                    <ul class="mb-0">
+                        <li>2003(平成15)年度前期: 芝浦工業大学工学部情報工学科</li>
+                        <li>2006(平成18)-2010(平成21)年度前期：筑波学院大学</li>
+                     </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+
+            <!-- 研究費獲得状況-->
+            <section class="resume-section" id="research-funding">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">研究費獲得状況(構築中) (Last updated in 2011)</h2>
+                    <ul class="mb-5">
+                        <li>1998(平成10)年度-2000(平成12)年度: 文部省科学研究費(特別研究員奨励費)，「構造化文書とデータベースを対象とした異種情報源統合利用環境」(代表)(科研費番号：)(採択3,000(900,900,1200)千円)</li>
+                        <li>2000(平成12)-2002(平成14)年度，科研費基盤研究(B)(2)(分担，代表:北川博之)，半構造マルチメディアデータベースに対する多元尺度に基づく動的類似検索手法の研究</li>
+                        <li>2003(平成15)-2004(平成16)年度，日本学術振興会 日米科学協力事業・共同研究(分担，代表：北川博之)「ストリームデータの意味的な統合：データマイニングに基づくアプローチ」</li>
+                        <li>2003(平成15)-2005(平成17)年度，日本学術振興会科学研究費若手研究(B)(代表)，「複雑なXML操作に対応した大規模問合せの生産性向上に関する研究」(科研費番号: 15700108)(採択2,500(900,900,700)千円)</li>
+                        <li>2003(平成15)-2005(平成17)年度，科研費基盤研究(B)(2)「情報資源の相互利用性向上を指向した多種メタデータの統合的利用支援環境」(分担，代表：杉本重雄)，(科研費番号15300078)</li>
+                        <li>2003(平成15)-2005(平成17)年度，科研費基盤研究(B)(2)， 「知識発見・学習を用いた動的情報提供サイト群からの情報獲得に関する研究」(分担，代表：北川博之)(科研費番号:)</li>
+                        <li>2003(平成15)-2004(16年度)，科研費特定領域研究 (C)(2):IT の深化の基盤を拓く情報学研究,「適応型ストリーム処理に基づく能動的コンテンツ統合利用に関する研究」(分担，代表：筑波大学・北川博之)</li>
+                        <li>2003(平成15)年10月～2008(平成20)年9月 科学技術振興機構 戦略的創造研究推進事業CREST 「自律連合型基盤システムの構築」(分担，代表:筑波大学・加藤和彦)</li>
+                        <li>2004(平成16)-2005(平成17)年度，科研費基盤研究(C)(2)「ディジタルアーカイブシステム間連携による長期保存方式の研究」(分担，代表：田畑孝一)(科研費番号:16500148)</li>
+                        <li>2006(平成18)-2008(平成20)年度，科研費基盤研究(A)「高機能分散ストリーム処理に基づく実時間実世界情報基盤の構築」(科研費番号：18200005)(分担，代表：筑波大学・北川博之)</li>
+                        <li>2007(平成19)-2008(平成20)年度，科研費特定領域研究：「能動的リソースマイニングに基づく異種情報統合基盤の研究」(科研費番号:19024006)(分担，代表：筑波大学・北川博之)</li>
+                        <li>2007(平成19)-2009(平成21)年度，科研費基盤研究(B)「ディジタル資料の長期保存とディジタルアーカイブの長期利用性に関する総合的研究」(科研費番号：19300081)(分担，代表：筑波大学・杉本重雄)</li>
+                        <li>2008(平成20)-2011(平成22)年度，科学研究費若手研究(B)(代表)，「開放型情報空間ガバナンス実現のための技術基盤の研究」(科研費番号：20700076)(採択4,160(1430(うち間接330), 1300(うち間接300)，1430(うち間接330))千円</li>
+                        <li>2009(平成21)-2010(平成22)年度，科研費特定領域研究：「能動的リソースマイニングに基づく異種情報統合基盤の研究」(科研費番号:21013004)(分担，代表：筑波大学・北川博之)(採択4,600千円(H21), 配分250千円(H21))</li>
+                        <li>2009(平成21)年度～2011(平成23)年度，科学研究費補助金　基盤研究(A)（研究分担者)　「大規模ユビキタス情報応用を支える高適応・高信頼ストリームデータ基盤」，研究課題番号：21240005，(代表：筑波大学・北川博之) (総額：37,440千円，配分額：2009年度13,650千円，2010年度13,910千円，2011年度9,880千円，分担金総額：900千円，分担金の配分額：2009年度300千円，2010年度300千円，2011年度300千円)</li>
+                        <li>(文部科学省科学研究費研究者番号70338309)</li>
+                     </ul>
+
+                    <div class="subheading mb-3">その他学内プロジェクト研究費など(構築中)</div>
+                    <ul>
+                        <li>2004(平成16)年度，筑波大学図書館情報メディア研究科プロジェクト研究(奨励研究)「データ再利用支援を目指したデータ変換・修復技術の研究」(代表)</li>
+                        <li>2005(平成17)年度，筑波大学図書館情報メディア研究科プロジェクト研究(奨励研究)「データ再利用支援技術を応用したソフトウェアツールの実現に関する研究」(代表)</li>
+                        <li>2007(平成19)年度：筑波大学図書館情報メディア研究科プロジェクト研究費(重点配分) 「スケーラブルな情報空間ガバナンスのためのメタデータ管理・ソフトウェア基盤」(代表) 500千円</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Courses-->
+            <section class="resume-section" id="courses">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Courses (構築中) (Last updated on April 1, 2020)</h2>
+                    <div class="subheading mb-3">AY2020</div>
+                    <ul class="mb-5">
+                        <li>春学期AB火曜1-2限: GC13201データ工学概論(情報メディア創成学類2年)</li>
+                        <li>春学期ABC水3-4, 金5-6：情報メディア実験(情報メディア創成学類3年)</li>
+                        <li>1学期水曜7-8限：情報メディア実験・演習III(図書館情報メディア研究科)</li>
+                        <li>秋学期AB火曜1-2限：データベースシステムII(情報メディア創成学類3年)</li>
+                        <li>秋学期AB火曜5-6限：データベース技術(知識情報・図書館学類3年,101，実1)</li>
+                        <li>秋学期AB金5-6, 土3-4：情報アクセス(人間総合科学研究科情報学学位プログラム)</li>
+                        <li>秋学期C月1-2,木1-2：Research Foundation(人間総合科学研究科情報学学位プログラム)</li>
+                     </ul>
+                    <div class="subheading mb-3">AY2013</div>
+                    <ul class="mb-5">
+                        <li>春学期AB火曜1-2限: GC13201データ工学概論(情報メディア創成学類2年)</li>
+                        <li>春学期ABC水曜3-4限：情報メディア実験(情報メディア創成学類3年)</li>
+                        <li>春学期AB金曜1-2限：データ工学特論(図書館情報メディア研究科)</li>
+                        <li>1学期水曜7-8限：情報メディア実験・演習III(図書館情報メディア研究科)</li>
+                        <li>春学期ABC金曜4-5限：情報メディア実験(情報メディア創成学類3年)</li>
+                        <li>秋学期AB月曜1-2限： データベースシステムII(情報メディア創成学類3年)</li>
+                        <li>秋学期AB火曜5-6限：データベース技術(知識情報・図書館学類3年,101，実1)</li>
+                        <li>秋学期火2, 木5-6： Webとデータモデリング(システム情報工学研究科コンピュータサイエンス専攻 高度IT人材育成のための実践的ソフトウェア開発専修プログラム)</li>
+                        <li>3学期水曜1-2限：情報メディア実験・演習I・II(コンテンツ共有基盤技術)(図書館情報メディア研究科)</li>
+                     </ul>
+                    <div class="subheading mb-3">AY2011,2012</div>
+                    <ul class="mb-5">
+                        <li>1学期金曜1-2限：データ工学特論(図書館情報メディア研究科)</li>
+                        <li>1学期水曜3-4限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>1学期水曜7-8限：情報メディア実験・演習III(図書館情報メディア研究科)</li>
+                        <li>1学期金曜4-5限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>2学期月曜4-5限: データ工学概論(情報メディア創成学類2年)</li>
+                        <li>2学期火曜3-4限：データベース技術(知識情報・図書館学類3年,101，実1)</li>
+                        <li>2学期水曜3-4限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>2学期木曜1-2： データベースシステムII(情報メディア創成学類3年)</li>
+                        <li>2学期金曜4-5限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>3学期水曜1-2限：情報メディア実験・演習I・II(コンテンツ共有基盤技術)(図書館情報メディア研究科)</li>
+                        <li>3学期火5、6, 木2： Webとデータモデリング(システム情報工学研究科コンピュータサイエンス専攻 高度IT人材育成のための実践的ソフトウェア開発専修プログラム)</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2010</div>
+                    <ul class="mb-5">
+                        <li>1学期月曜3-4限：コンテンツ共有基盤技術論(図書館情報メディア研究科)</li>
+                        <li>前期月曜5限: データベースの利用(筑波学院大学)</li>
+                        <li>1学期水曜3-4限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>1学期水曜7-8限：情報メディア実験・演習III(図書館情報メディア研究科)</li>
+                        <li>1学期金曜4-5限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>2学期月曜4-5限: データ工学概論(情報メディア創成学類2年)</li>
+                        <li>2学期火曜3-4限：データベース技術(知識情報・図書館学類3年,101，実1)</li>
+                        <li>2学期水曜3-4限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>2学期木曜1-2： データベースシステムII(情報メディア創成学類3年)</li>
+                        <li>2学期金曜4-5限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>3学期水曜1-2限：情報メディア実験・演習I・II(コンテンツ共有基盤技術)(図書館情報メディア研究科)</li>
+                        <li>3学期火5、6, 木2： Webとデータモデリング(システム情報工学研究科コンピュータサイエンス専攻 高度IT人材育成のための実践的ソフトウェア開発専修プログラム)</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2009</div>
+                    <ul class="mb-5">
+                        <li>1学期月曜3-4限：コンテンツ共有基盤技術論(図書館情報メディア研究科)</li>
+                        <li>前期月曜5限: データベースの利用(筑波学院大学)</li>
+                        <li>1学期水曜3限：フレッシュマンセミナー(情報メディア創成学類1年)</li>
+                        <li>1学期水曜3-4限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>1学期水曜7-8限：情報メディア実験・演習III(図書館情報メディア研究科)</li>
+                        <li>1学期金曜4-5限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>2学期月曜4-5限: データ工学概論(情報メディア創成学類2年)</li>
+                        <li>2学期火曜3-4限：データベース技術(知識情報・図書館学類3年,101，実1)</li>
+                        <li>2学期水曜3限：教養と科学(情報メディア創成学類1年)</li>
+                        <li>2学期水曜3-4限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>2学期木曜1-2： データベースシステムII(情報メディア創成学類3年)</li>
+                        <li>2学期金曜4-5限：情報メディア演習(情報メディア創成学類3年)</li>
+                        <li>後期水曜5-6限：情報科学特別講義VII (お茶の水女子大学理学部情報科学科，12月9日)</li>
+                        <li>3学期月曜2限: 総合科目「ネットワークコミュニティ入門」</li>
+                        <li>3学期水曜1-2限：情報メディア実験・演習I・II(コンテンツ共有基盤技術)(図書館情報メディア研究科)</li>
+                        <li>3学期水曜日3限：教養と科学(情報メディア創成学類1年)</li>
+                        <li>3学期火5、6, 木2： Webとデータモデリング(システム情報工学研究科コンピュータサイエンス専攻 高度IT人材育成のための実践的ソフトウェア開発専修プログラム)</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2008</div>
+                    <ul class="mb-5">
+                        <li>1学期月曜5限: データベースの利用(筑波学院大学)</li>
+                        <li>1学期水曜7-8限：情報メディア実験・演習III(図書館情報メディア研究科)</li>
+                        <li>2学期月曜1-2限：先端データベース技術論(図書館情報専門学群3年)</li>
+                        <li>2学期月曜4-5限: データ工学概論(情報メディア創成学類2年)</li>
+                        <li>1学期木曜7-8限：コンテンツ共有基盤技術論(図書館情報メディア研究科)</li>
+                        <li>3学期月曜5-6限：データベースシステム(図書館情報専門学群3年)</li>
+                        <li>3学期水曜1-2限：情報メディア実験・演習I・II(コンテンツ共有基盤技術)(図書館情報メディア研究科)</li>
+                        <li>3学期火5、6, 木2： Webとデータモデリング(システム情報工学研究科コンピュータサイエンス専攻 高度IT人材育成のための実践的ソフトウェア開発専修プログラム)</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2007</div>
+                    <ul class="mb-5">
+                        <li>1学期月曜4限: データベースの利用(筑波学院大学)</li>
+                        <li>1学期水曜7-8限：情報メディア実験・演習III(図書館情報メディア研究科)</li>
+                        <li>2学期月曜1-2限：先端データベース技術論(図書館情報専門学群3-4年)</li>
+                        <li>2学期月曜3-4限：データベース(図書館情報専門学群2年)</li>
+                        <li>2学期木曜7-8限：コンテンツ共有基盤技術論(図書館情報メディア研究科)</li>
+                        <li>3学期月曜5-6限：データベースシステム(図書館情報専門学群)</li>
+                        <li>3学期水曜1-2限：情報メディア実験・演習I・II(コンテンツ共有基盤技術)(図書館情報メディア研究科)</li>
+                        <li>3学期火5、6, 木2： Webとデータモデリング(システム情報工学研究科コンピュータサイエンス専攻 高度IT人材育成のための実践的ソフトウェア開発専修プログラム)</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2006</div>
+                    <ul class="mb-5">
+                        <li>1学期月曜4限: データベースの利用(筑波学院大学)</li>
+                        <li>1学期水曜7-8限：情報メディア実験・演習III(図書館情報メディア研究科)</li>
+                        <li>2学期月曜1-2限：先端データベース技術論(図書館情報専門学群)</li>
+                        <li>2学期月曜3-4限：データベース(図書館情報専門学群)</li>
+                        <li>2学期木曜7-8限：コンテンツ共有基盤技術論(図書館情報メディア研究科)</li>
+                        <li>3学期月曜5-6限：データベースシステム(図書館情報専門学群)</li>
+                        <li>3学期水曜1-2限：情報メディア実験・演習I・II(コンテンツ共有基盤技術)(図書館情報メディア研究科)</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2004,2005</div>
+                    <ul class="mb-5">
+                        <li>1学期水曜7-8限：情報メディア実験・演習III</li>
+                        <li>2学期月曜1-2限：先端データベース技術論</li>
+                        <li>2学期月曜3-4限：コンテンツ共有基盤技術論</li>
+                        <li>3学期月曜5-6限：データベースシステム</li>
+                        <li>3学期水曜1-2限：情報メディア実験・演習I・II(コンテンツ共有基盤技術)</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2003</div>
+                    <ul class="mb-5">
+                        <li>under construction.</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2002</div>
+                    <ul class="mb-5">
+                        <li>Introduction to Programming 1</li>
+                        <li>Data Structure and Algorithms 2</li>
+                        <li>Introduction to Database Systems</li>
+                        <li>Principles of Programming Languages 2</li>
+                        <li>Advanced Topics in Data Engineering</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2001</div>
+                    <ul class="mb-5">
+                        <li>Introduction to Programming 1</li>
+                        <li>Data Structure and Algorithms 2</li>
+                        <li>Principles of Programming Languages 2</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- 意欲ある学生の方を募集します-->
+            <section class="resume-section" id="recruitment">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">意欲ある学生の方を募集しています．(出身学類，大学を問いません)</h2>
+                    <p>意欲ある学生の方を募集しています．</p>
+                    <ul>
+                        <li>将来情報系研究者・技術者・教育者として活躍し社会に貢献することを強く希望する方．</li>
+                        <li>情報系学科卒業レベルの基礎知識およびプログラミングスキルを習得されている方，もしくは他分野出身でも情報科学に対する強い興味を有しプログラミングなどを積極的に行ってきた方．</li>
+                        <li>情報統合技術，XML，Web, データベース, ディジタルアーカイブなど，またデータの管理や高度利用一般に興味のある方．</li>
+                        <li>コツコツやれる方，チームの中でも人とうまくやれる方．</li>
+                    </ul>
+                    <div class="subheading mb-3">研究指導内容について</div>
+                    <ul>
+                        <li>情報系研究者・技術者・教育者の育成に必要な専門教育はもちろんですが，それだけではなく，<span style="color: crimson;">元気で，信頼でき，志の高い人材の育成</span>を目標にしています．</li>
+                    </ul>
+                    <div class="subheading mb-3">方法はいくつかあります．興味のある方は最初にメールでご相談ください(随時受付中)．</div>
+                    <ul>
+                        <li>筑波大学の学生の場合->原則，<a href="http://www.slis.tsukuba.ac.jp/grad/" target="_blank">図書館情報メディア研究科</a>を受験してください．他研究科志望の場合も相談してください．なんらかの対応・進路相談ができる可能性があります．</li>
+                        <li>他大学の学生の場合-><a href="http://www.slis.tsukuba.ac.jp/grad/" target="_blank">筑波大学大学院図書館情報メディア研究科</a>を受験してください．</li>
+                        <li>社会人の場合->会社の許可が出ない場合，筑波大学大学院の<a href="http://www.tsukuba.ac.jp/reiki_int/honbun/au0110125041305011.html" target="_blank">研究生</a>になるという手もあります．</li>
+                        <li>その他->ご相談ください．</li>
+                    </ul>
+                    <p><span style="color: crimson;">学部生(1～3年生)を対象として，卒業研究ゼミを公開しています．</span>興味のある方は森嶋まで連絡してください．早いうちに研究室を見学して損することはありません．</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- 卒業生の進路-->
+            <section class="resume-section" id="course-of-graduates">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">卒業生の進路(過去3年)</h2>
+                    <ul>
+                        <li>大学院進学: 11人(筑波大学大学院図書館情報メディア研究科，筑波大学大学院システム情報工学研究科)</li>
+                        <li>就職: 2人</li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Students-->
+            <section class="resume-section" id="students">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Students (Last updated in 2013)</h2>
+                    <div class="subheading mb-3">AY2013</div>
+                    <ul>
+                        <li>筑波大学大学院図書館情報メディア研究科: <a href="http://www.slis.tsukuba.ac.jp/~s1221575/" target="_blank">青木秀人</a>(M2)</li>
+                        <li>筑波大学大学院システム情報工学研究科: <a href="http://www.kde.cs.tsukuba.ac.jp/~shun.fukusumi/" target="_blank">福角駿</a> (M2)， <a href="http://www.kde.cs.tsukuba.ac.jp/~gonnokami/" target="_blank">権守健嗣</a>, <a href="http://www.tsukuba.ac.jp/" target="_blank">丹治寛佳</a>(M1)</li>
+                        <li>筑波大学情報学群情報メディア創成学類(B4): <a href="http://www.u.tsukuba.ac.jp/~s1011473/a.html" target="_blank">北嶋初音</a>， <a href="http://www.u.tsukuba.ac.jp/~s1011479/" target="_blank">櫻井恵美</a>， <a href="http://www.u.tsukuba.ac.jp/~s1011499/" target="_blank">平木理恵</a></li>
+                        <li>筑波大学情報学群知識情報・図書館学類(B4): <a href="http://www.u.tsukuba.ac.jp/~s1011514/Yabematsu.html" target="_blank">あべ松幸彦</a> <a href="http://www.u.tsukuba.ac.jp/~s1213112/" target="_blank">品川有輝</a></li>
+                    </ul>
+                    <div class="subheading mb-3">AY2012</div>
+                    <ul>
+                        <li>筑波大学大学院図書館情報メディア研究科: 只石 正輝 (D2)，袖山 広輝, 山元 潤, 三津石智巳, 安永ゆい (M2)</li>
+                        <li>青木秀人 (M1)</li>
+                        <li>筑波大学大学院システム情報工学研究科(M1): 福角駿</li>
+                        <li>筑波大学情報学群情報メディア創成学類(B4): 丹治寛佳, 富田 栞, 権守健嗣</li>
+                        <li>筑波大学情報学群知識情報・図書館学類(B4): 宮田愛</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2011</div>
+                    <ul>
+                        <li>筑波大学大学院図書館情報メディア研究科: 只石 正輝 (D2)， 永壽綾子 (社会人学生M2) 太田 壮祐, 袖山 広輝, 山元 潤, 弓矢 英梨佳(M2)</li>
+                        <li>三津石智巳, 安永ゆい (M1)</li>
+                        <li>筑波大学大学院システム情報工学研究科: 山口佳祐(M1, 研究協力者)</li>
+                        <li>筑波大学情報学群情報メディア創成学類(B4): 財前涼, 福角駿</li>
+                        <li>筑波大学情報学群知識情報・図書館学類(B4): 青木秀人, 宮田愛</li>
+                        <li>筑波大学情報学群情報メディア創成学類(B3): 丹治寛佳, 富田 栞, 権守健嗣</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2010</div>
+                    <ul>
+                        <li>筑波大学大学院図書館情報メディア研究科: 只石 正輝 (D1)， 永壽綾子 (社会人学生M2), 望月祥司, 宋敏, 安西 則晃，石井 悠太，伊藤 弘人(M2), 太田 壮祐，袖山 広輝, 山元 潤, 弓矢英梨佳(M1)</li>
+                        <li>筑波大学情報学群情報メディア創成学類(B4): 斉藤創太，山口佳祐</li>
+                        <li>筑波大学情報学群知識情報・図書館学類(B4): 三津石智巳，安永ゆい</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2009</div>
+                    <ul>
+                        <li>筑波大学大学院図書館情報メディア研究科: 望月祥司, 永壽綾子 (社会人学生M2), 高橋 公海，只石 正輝，宋敏 (M2), 安西 則晃，石井 悠太，伊藤 弘人(M1)</li>
+                        <li>筑波大学図書館情報専門学群(B4): 太田 壮祐，袖山 広輝, 山元 潤, 弓矢 英梨佳</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2008</div>
+                    <ul>
+                        <li>筑波大学大学院図書館情報メディア研究科: 望月祥司, 三森祐一郎 (M2), 永壽綾子 (社会人学生M2?), 高橋 公海，只石 正輝，宋敏 (M1)</li>
+                        <li>筑波大学図書館情報専門学群(B4): 浅川 彩，溝口 智香, 安西 則晃，石井 悠太，伊藤 弘人，松本 亜季子</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2007</div>
+                    <ul>
+                        <li>筑波大学大学院図書館情報メディア研究科: 澤 菜津美， 望月祥司(M2), 三森祐一郎 (M1), 永壽綾子 (社会人学生M1), 宋敏 (研究生)</li>
+                        <li>筑波大学図書館情報専門学群(B4): 浅川 彩, 佐藤 弘樹， 高橋 公海， 只石 正輝， 溝口 智香</li>
+                        <li>筑波大学図書館情報専門学群(B3): 安西 則晃, 石井 悠太, 伊藤 弘人, 松本 亜季子</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2006</div>
+                    <ul>
+                        <li>筑波大学大学院図書館情報メディア研究科: 飯田敏成， 石川憲一 (M2)，澤 菜津美，望月祥司 (M1), 宋敏 (研究生)</li>
+                        <li>筑波大学図書館情報専門学群(B4): 兒玉麻莉子，菅谷あゆみ，溝口智香，三森祐一郎</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2005</div>
+                    <ul>
+                        <li>筑波大学大学院図書館情報メディア研究科: 大河原俊明 (M2), 飯田敏成，石川憲一 (M1)</li>
+                        <li>筑波大学図書館情報専門学群(B4): 伊藤祐弥，永壽綾子，澤 菜津美，鈴木 勇</li>
+                        <li>継続して共同研究: 上村匡稔，小島章, 中溝昌佳, 田中淳一</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2004</div>
+                    <ul>
+                        <li>芝浦工業大学大学院工学研究科: 中溝昌佳 (M2)</li>
+                        <li>筑波大学大学院図書館情報メディア研究科: 大河原俊明 (M1)</li>
+                        <li>筑波大学図書館情報専門学群 (B4): 飯田敏成，石川憲一， 黒崎千春，田中淳一，長野康明</li>
+                        <li>継続して共同研究: 上村匡稔，小島章</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2003</div>
+                    <ul>
+                        <li>芝浦工業大学大学院工学研究科: 古川夏子 (M2), 中溝昌佳 (M1)</li>
+                        <li>図書館情報大学大学院情報メディア研究科: 有山智洋 (M2)</li>
+                        <li>筑波大学大学院図書館情報メディア研究科: 上村匡稔</li>
+                        <li>継続して共同研究: 小島章, 油井誠</li>
+                        <li>図書館情報大学図書館情報学部: 大河原俊明，Akmar Farwiz Bin Bakar(B4)</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2002(<a href="members2002.jpg">Photo (members including me) (WARNING: Huge)</a>)</div>
+                    <ul>
+                        <li>Master's Students: Akira Matsumoto (M2, Univ. of Tsukuba), Natsuko Furukawa (M1)</li>
+                        <li>Undergraduate Students: Atsushi Arai, Hayato Ito, Ryuusuke Ito, Kei Ueda, Natsuko Ohno, Akira Kojima, Yukio Suzuki, Kennichi Sekiguchi, Akiyoshi Nakamizo, Jyunji Hagio, Yujiro Miyoshi, Makoto Yui</li>
+                    </ul>
+                    <div class="subheading mb-3">AY2001(<a href="members2001.jpg">Photo (members including me) (WARNING: Huge)</a>)</div>
+                    <ul>
+                        <li>Master's Students: Akira Matsumoto (M1, Univ. of Tsukuba)</li>
+                        <li>Undergraduate Students: Megumi Arakawa, Natsuko Furukawa, Manabu Hashigami, Tetsu Kato, Hiroshi Odagawa, Keiichi Oka, Kozue Ono, Takanori Tominaga</li>
+                    </ul>
+
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- ご連絡先-->
+            <section class="resume-section" id="contact-information">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">ご連絡先 (Last updated on April 1, 2020)</h2>
+                    <div class="subheading mb-3">郵送物などの宛先，住所:</div>
+                    <p>〒305-8550 つくば市春日１－２ 筑波大学 図書館情報メディア系</p>
+                    <div class="subheading mb-3">emailによる連絡:</div>
+                    <ul>
+                        <li><a href="mailto:morishima-office@ml.cc.tsukuba.ac.jp">morishima-office@ml.cc.tsukuba.ac.jp</a> (確実性が最も高い)</li>
+                        <li><a href="mailto:amorishima@acm.org">amorishima@acm.org</a> (mori@slis.tsukuba.ac.jpに転送されます)</li>
+                    </ul>
+                    <div class="subheading mb-3">主な居場所及び電話:</div>
+                    <ul>
+                        <li>教員研究室：筑波キャンパス7D507 Phone: 029-859-1306 (筑波大学内からは内線81306)</li>
+                        <li>学生実験室　情報メディアユニオン3階U305 Phone: 029-859-1556 (筑波大学内からは内線81556)</li>
+                    </ul>
+                    <div class="subheading mb-3">大学にお越しの場合:</div>
+                    <p><a href="http://www.tsukuba.ac.jp/access/map_kasuga.html">こちら</a>をごらんください.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Misc-->
+            <section class="resume-section" id="misc">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Misc</h2>
+                    <ul>
+                        <li><a href="http://www.kde.cs.tsukuba.ac.jp/~mori/index-j.html">昔のページ (obsolete and incomplete)</a></li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

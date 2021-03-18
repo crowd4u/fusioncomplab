@@ -1,0 +1,199 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html lang="en">
+<head>
+<meta name="keywords" content="FusionCOMP,CyLog,Crowd4U,Crowdsourcing,Human Computation"> 
+<meta name="robots" content="INDEX,FOLLOW">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>The FusionCOMP Project - A Human/Machine Programming Language for Data-centric Human Computation and Crowdsourcing Applications: CyLog, Crowd4U, and more - University of Tsukuba</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25989053-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
+<!-- @import url(./style.css); -->
+</style>
+</head>
+<body>
+
+Note: this page is not the latest version and will be updated.
+
+<DIV ALIGN="CENTER">
+<table width="800">
+<tr><td>
+[<a href="./index-j.html"> in Japanese </a>]<br>
+<img src="./infospacebuilder.jpg" alt="FusionCOMP project Top">
+</td></tr>
+<tr></tr>
+<tr><td>
+The aim of the FusionCOMP (the Fusion of data-centric COmputations by Machines and People) project is to study programming languages and development environments for data-centric applications, including human computation and crowdsourcing applications, in which both humans and digital computers are expected to work in appropriate ways. 
+The challenge is to establish fundamental and non ad-hoc technologies for the software development in which both human and machine computations are considered as first-class components of the system and the traditional closed-world assumption is not nessesarily applicable. 
+Our approach is to model each human as a "rational data source," which behaves according to expected rewards, in the design and implementation processes of such applications.
+<br>
+
+The project has been supported by the followings: (1) PREST, the Japan Science and Technology Agency (JST) (2010-2014),
+(2) JSPS KAKENHI (#25240012) (2013-2017), and 
+(3) SIP, the Japan Science and Technology Agency (JST) (2014-2019).
+
+
+</td></tr>
+<tr></tr>
+<tr><td>
+<img src="concept.jpg" width="400" style="float:left" alt="Cybernetic Computing">
+An important issue of the FusionCOMP project is to develop a programming language as an analyzable, executable, and  integrated abstraction of data-centric human/machine computations.
+The two main goals are:
+
+<ul>
+<li>To achive the rapid development of application software of data-centric human/machine computations, and 
+<li>To study the theories behind the integration of data-centric human/machine computations.
+</ul>
+
+The ultimate goal of the project is to develop a "programmable intelligence aggregator" to aggregate human/machine intelligence to solve different problems.
+</td></tr>
+<tr><td>
+<h2> Research in Progress in the FusionCOMP project</h2>
+<ul>
+<li> <a href="http://crowd4u.org/cylog">CyLog</a>: a declarative language for the integration of data-centric human/machine computations.
+<li> Crowd4U: a microtask-based crowdsourcing/microvolunteering platform developed by universities.
+<li> Theories
+<li> Applications
+</ul>
+</td></tr>
+<tr><td>
+<h2> Some of the Key Technologies</h2>
+<ul>
+<li> <a href="http://crowd4u.org/cylog">CyLog</a>
+<ul>
+<li> A rule-based language that allows us to write declarative and seamless description of human/machine computations: both of human/machine computations are described with the same set of programming constructs.
+<li> The syntax is similar to Datalog (or Prolog).
+<li> Human as a rational data source: Each human is modeled as a rational data source, which provides data according to expected rewards.
+CyLog allows us to write data games and aggregations to obtain values with required properties (e.g., correctness).
+<li> Open predicates/attributes: An open predicate is a predicate that humans are expected to evaluate if its truth cannot be determined by computers based on the already-known facts.
+Similary, an open attribute is an attribute that humans are expected to fill in if its value cannot be derived by computers based on the already-known facts.
+<p> For example, the following code assigns a set of keywords as metadata to each image when the keywords are given by the crowd and have definitions in the dictionary.<br/>
+<tt>Metadata(i, w) : - img(i), keywords(i, w)/open, inDict(w)</tt>
+</p></li>
+<li> Game Aggregations: functions to compute values based on the behaviors of humans or the crowd.
+</ul>
+<li> <a href="http://crowd4u.org">Crowd4U</a>: A crowdsourcing platform for academinc purposes, which can execute CyLog codes</li>
+</ul>
+</td></tr>
+<tr><td>
+<h2>Related Systems/Technologies/Research Projects (under construction)</h2>
+I also maintain <a href="http://www.kc.tsukuba.ac.jp/~mori/isbuilder/crowdsourcing_survey.html">a list of programming languages for human computation and crowdsourcing applications.</a>
+On data-centric systems, Anhai Doan, Michael Franklin, Donald Kossmann, and Tim Kraska gave a <a href="http://www.cs.berkeley.edu/~kraska/pub/2011-09-01_Crowd_VLDB_Tutorial_print.pdf">tutorial</a> at VLDB 2011.
+<ul>
+<li><a href="http://groups.csail.mit.edu/uid/turkit/">TurKit</a>: A Java/JavaScript API for running iterative tasks on Mechanical Turk. With TurKit, programmers write programs in a straightforward imperative manner, but can safely re-execute programs without re-running costly side effects on Mechanical Turk. CyLog provides a data-centric declarative abstraction, focusing on the fusion of human/machine computations.
+<li><a href="http://www.ifi.uzh.ch/ddis/research/CrowdLang.html">CrowdLang</a>: A model-based programming language for complex crowdsourcing applications. 
+It is interesting that it provides a set of common patterns and concepts taken from  collective intelligence applications.
+Currently, it seems that the codes in CrowdLang are written at an abstract level. In contrast, the codes in CyLog is executable.</li>
+<li><a href="http://ai.cs.washington.edu/projects/ckb">Collective Knowledge Bases</a>:
+In the project, they constructed a system to leverage mass collaboration to build large knowledge bases. In the system, contributers (1) give facts and rules and (2) receive feedbacks.
+The collected knowledge base is utilized in an traditional expert-system fastion.
+For example, it is used for printer truble shooting.
+In contrast, CyLog is designed for data-centric applications, in which we collect, process, integrate, and manage data in the presence of human data sources.
+This makes a big difference in the language design. 
+For example, CyLog does not take the traditional closed world assumption and has a mechanism to solicit human input.
+<li><a href="http://people.csail.mit.edu/marcua/research.html">Qurk</a>: 
+Qurk helps users build crowd-powered data processing workflows using a SQL-like language.
+In Qurk, user-defined functions are incorporated into SQL queries to interact with the crowd. 
+In contrast, CyLog programs employ Datalog-style rules and an event-driven semantics.
+<li><a href="http://www-cs-students.stanford.edu/~adityagp/scoop.html">sCOOP</a>: The Stanford--Santa-Cruz Project for Cooperative Computing with Algorithms, Data and People. Their hQuery is discussed in a Datalog-like notation. The h/ha-predicates of hQuery and our open predicates have some similarity. An open predicate is evaluated by humans when it cannot be evaluated by machines (through data or algorithms), while h-predicates and ha-predicates are evaluated by humans and both of human and algorithms, respectively.
+It is interesting that they have different (and possibly complementary) approaches to deal with data values obtained by people.
+hQuery takes the crowd-as-a-data-source approach, in that each value (associated with its certainty) is automatically by the crowd. They propose to use probability thresholds for that purpose.
+In contrast, CyLog takes the human-as-a-data-source approach in that we model each human as a rational data source and that we design data games and aggregations to obtain values with required properties.
+<li><a href="http://amplab.cs.berkeley.edu/publication/crowddb-answering-queries-with-crowdsourcing/">CrowdDB</a>: CrowdDB provides an SQL-compatible language to handle queries that cannot be answered by machines only. They try to achieve the data independence and query optimitzation in the presence of the crowd processing.
+Their CNULL and our open attributes are similar to each other.</li>
+<li><a href="http://smus.com/crowdforge">CrowdForge</a>: A MapReduce-like framework/toolkit, being developed by CMU, to implement complex crowdsourcing applications based on the partition, map, and reduce abstractions. Compared to CyLog, CrowdForge gives us a higher-level abstraction to define the structure of crowdsourcing applications. 
+We think that CyLog can be used as an executable language into which the application definition by CrowdForge can be translated.
+</li>
+</ul>
+</td></tr>
+<tr><td>
+<h2> Project Members</h2>
+<ul>
+<li><a href="http://fusioncomplab.org/people/atsuyuki/">Atsuyuki Morishima </a></li>
+<li><a href="">Hideto Aoki</li>
+<li><a href="http://www.kde.cs.tsukuba.ac.jp/~shun.fukusumi/">Shun Fukusumi</a></li>
+<li><a href="http://www.kde.cs.tsukuba.ac.jp/~gonnokami/">Kenji Gonnokami</a>
+<li><a href="http://www.kde.cs.tsukuba.ac.jp/~tanji/">Hiroyoshi Tanji</a></li>
+</ul>
+<h2> Past Members/Collaborators</h2>
+<ul>
+<li>Tomomi Mitsuishi (2010/4-2013/3)
+<li>Norihide Shinagawa (2011/4-2013/3)
+<li>Tetsuya Abe (support staff) (2010/11-2012/1)
+<li>Shoji Mochizuki (2010/4-2011/3)
+<li>Yui Yasunaga (2010/4-2011/3)
+<li>Keisuke Yamaguchi (2010/4-2011/3)
+<li>Noriaki Anzai (2009/4-2010/3)
+</ul>
+</td></tr>
+<tr><td>
+<h2>Publications/Talks</h2>
+<ul>
+<li>Atsuyuki Morishima. CyLog/Crowd4U: A Case Study of a Computing Platform for Cybernetic Dataspaces (Invited Chapter). <br/>Handbook of Human Computation, Springer, 2014. (to appear)<div class="new">(NEW!)</div></li>
+<li>Atsuyuki Morishima, Takanori Kawashima, Takashi Harada, Norihiko Uda, Ikki Ohmukai. 
+L-Crowd: A Library Crowdsourcing Project by LIS and CS Researchers in Japan (Invited Talk), <br/>International Conference on Digital Libraries (ICDL2013), November 2013. (to appear)
+<div class="new">(NEW!)</div></li>
+<li>Aoki Hideto, Atsuyuki Morishima. A Divide-and-Conquer Approach for Crowdsourced Data Enumerataion. <br/>SocInfo 2013, November 2013. (to appear)<div class="new">(NEW!)</div></li>
+<!--<li>X“ˆŒús. Crowd4U/L-Crowd: ƒAƒJƒfƒ~ƒA‚É‚æ‚é‚“xƒNƒ‰ƒEƒhƒ\[ƒVƒ“ƒOƒvƒ‰ƒbƒgƒtƒH[ƒ€‚Æ}‘ŠÙî•ñ•ª–ì‚Ö‚Ì‰ž—p (Invited Talk). <br/>‘æ45‰ñƒfƒBƒWƒ^ƒ‹}‘ŠÙƒ[ƒNƒVƒ‡ƒbƒv/î•ñˆ—Šw‰ï‘æ112‰ñî•ñŠî‘b‚ÆƒAƒNƒZƒX‹ZpŒ¤‹†‰ï‡“¯Œ¤‹†‰ïC2013”N9ŒŽ26“ú<div class="new">(NEW!)</div></li>-->
+<li>Kenji Gonnokami, Atsuyuki Morishima, Hiroyuki Kitagawa. Condition-Task-Store: A Declarative Abstraction for Microtask-based Complex Crowd-sourcing. <br/>DBCrowd 2013: 20-25, August 2013.<div class="new">(NEW!)</div></li>
+<!--<li>X“ˆŒús. Crowd4U: ƒAƒJƒfƒ~ƒA‚Æ‰ž—p•ª–ìê–å‰Æ‚ª\’z‚·‚é‚“xƒNƒ‰ƒEƒhƒ\[ƒVƒ“ƒOƒvƒ‰ƒbƒgƒtƒH[ƒ€ (µ‘Òu‰‰)D<br/>‘æ27‰ñlH’m”\Šw‰ï‘S‘‘å‰ïC2013”N6ŒŽ5“ú</li>
+<li>’OŽ¡Š°‰À,X“ˆŒús,ˆäƒmŒû@¬.uWebî•ñ‚ð—p‚¢‚½ÐŠQó‹µ”cˆ¬‚Ì‚½‚ß‚ÌƒNƒ‰ƒEƒhƒ\[ƒVƒ“ƒO—pƒ}ƒCƒNƒƒ^ƒXƒN‚ÌŽŽ‚Ýv<br/>
+ 2013”N“dŽqî•ñ’ÊMŠw‰ï@‘‡‘å‰ïu‰‰˜_•¶W,1page, Šò•Œ‘åŠw,2013”N3ŒŽ19“ú.</li>
+<li>•x“cžx,X“ˆŒús,ì“‡—²“¿,‰F‘É‘¥•F,Œ´“c—²Žj.uƒNƒ‰ƒEƒhƒ\[ƒVƒ“ƒO‚É‚æ‚é‘ŽŒë“¯’è”­Œ©‚Ì‚½‚ß‚Ìƒ^ƒXƒNÝŒvv<br/>
+2013”N“dŽqî•ñ’ÊMŠw‰ï@‘‡‘å‰ïu‰‰˜_•¶W ,1page, Šò•Œ‘åŠw,2013”N3ŒŽ19“ú.</li>
+<li> Â–ØGlCX“ˆŒúsCŽO’ÃÎ’q–¤DuƒNƒ‰ƒEƒhƒ\[ƒVƒ“ƒO‚É‚æ‚éƒf[ƒ^ŽûW‚Ì‚½‚ß‚Ìƒ^ƒXƒN¶¬Žè–@‚Ì’ñˆÄv<br/>
+ ‘æ5‰ñƒf[ƒ^HŠw‚Æî•ñƒ}ƒlƒWƒƒ“ƒg‚ÉŠÖ‚·‚éƒtƒH[ƒ‰ƒ€(DEIM 2013),7 pages, •Ÿ“‡Œ§ŒSŽRŽs,2013”N3ŒŽ4“úD</li>
+<li>Œ ŽçŒ’ŽkCX“ˆŒús.uéŒ¾“I‹Lq‚É‚æ‚éƒNƒ‰ƒEƒhƒ\[ƒVƒ“ƒOƒVƒXƒeƒ€‚ÌŠJ”­Žx‰‡v<br/>
+ ‘æ5‰ñƒf[ƒ^HŠw‚Æî•ñƒ}ƒlƒWƒƒ“ƒg‚ÉŠÖ‚·‚éƒtƒH[ƒ‰ƒ€(DEIM 2013),8 pages, •Ÿ“‡Œ§ŒSŽRŽs,2013”N3ŒŽ4“úD</li>
+<li>ŽO’ÃÎ’q–¤CX“ˆŒúsCÂ–ØGl.uCrowdsourced Join Pre-filter‚É‚æ‚éHuman-powerd Joinˆ—Œø—¦‰»‚Ì•]‰¿v<br/>
+‘æ5‰ñƒf[ƒ^HŠw‚Æî•ñƒ}ƒlƒWƒƒ“ƒg‚ÉŠÖ‚·‚éƒtƒH[ƒ‰ƒ€(DEIM 2013),8 pages, •Ÿ“‡Œ§ŒSŽRŽs,2013”N3ŒŽ4“úD </li>-->
+<li>Tomomi Mitsuishi, Atsuyuki Morishima, Norihide Shinagawa, Hideto Aoki. "Efficient Evaluation of Human-powered Joins with Crowdsourced Join Pre-filters." The 7th ACM International Conference on Ubiquitous Information Management and Communication (ACM ICUIMC2013), 6 pages, Kota Kinabalu, Malaysia, January 17-19, 2013.</li>
+<li>Atsuyuki Morishima. Declarative Data-centric Crowdsourcing. The 7th Korea-Japan Database Workshop 2012,(KJDB 2012) November 30 - December 2, 2012.</li>
+<li>Atsuyuki Morishima, Norihide Shinagawa, Tomomi Mitsuishi, Hideto Aoki, Shun Fukusumi. CyLog/Crowd4U: A Declarative Platform for Complex Data-centric Crowdsourcing.<br/> 
+PVLDB 5(12): 1918-1921 (2012) </li>
+<!--<a href="http://crowd4u.slis.tsukuba.ac.jp/vldb2012">Demo page</a>) <div class="new">(NEW!)</div></li>-->
+<li>Shun Fukusumi, Atsuyuki Morishima, Norihide Shinagawa, Hiroyuki Kitagawa.
+Applying DB Abstraction and Game Theory to Development of a GWAP for Extracting Structured Data from Microblogs<br/>
+DBSJ Journal, Vol 11, No. 1, pp. 19-24, June 2012. (in Japanese)<!--<div class="new">(NEW!)</div>--></li>
+<li>Tomomi Mitsuishi, Atsuyuki Morishima, Norihide Shinagawa, Hideto Aoki
+Evaluation of a Crowdsourced Method for the Efficient Processing of Human-powered Joins<br/>
+The third symposium on social computing (SoC 2012), 6 pages, Tokyo, June 2012. (in Japanese)</li>
+<li>Hideto Aoki, Atsuyuki Morishima, Norishide Shinagawa. A Cover-all Operation for Data Crowdsourcing.<br/>
+DEIM Forum 2012, 7 pages, March 2012. (in Japanese)</li>
+<li> Shun Fukusumi, Atsuyuki Morishima, Norihide Shinagaawa. Data Extraction from Microblogs with a GWAP.<br/>
+ DEIM Forum 2012, 8 pages, March 2012. (in Japanese)</li>
+<li>Tomomi Mitsuishi, Atsuyuki Morishima, Norihide Shinagawa, Hideto Aoki. Efficient Evaluation of Human-powered Joins with Crowdsourcing.<br/>
+ DEIM Forum 2012, 6 pages, March 2012. (in Japanese)</li>
+<li>Atsuyuki Morishima, Norihide Shinagawa, Shoji Mochizuki. The Power of Integrated Abstraction for Data-centric Human/Machine Computations.<br>
+First International Workshop on Searching and Integrating New Web Data Sources (VLDS2011) Co-located with VLDB 2011, pp. 5-8, September, 2011. (<a href="./vlds2011.pdf">pdf here</a>. <a href="./vlds2011-mori-talk-upload.pdf">Slides here</a>. A technical report (long version) will be available soon)
+<li>Tomomi Mitsuishi, Norihide Shinagawa, Atsuyuki Morishima.  Fusion of Human/Machine Computations: A Development Environment and Applications. Social Computing Symposium 2011, June 2011. (poster with demonstrations: <a href="SoC2011-poster-A4.pdf">poster in Japanese here</a>)
+<li>Tomomi Mitsuishi, Shoji Mochizuki, Atsuyuki Morishima. CySearch: Proposal of a System for the Blended Search of Human and Computer Information Sources, Proc. of the 73rd IPSJ Annual Conference, Vol. 1,  pp. 683-684,  March 2011. (in Japanse)
+<li>Yui Yasunaga, Shoji Mochizuki, Atsuyuki Morishima. Proposal of a Method for Building Ontologies with GWAPs, Proc. of the 73rd IPSJ Annual Conference, Vol. 1, pp. 765-766, March 2011. (in Japanse)
+<li>Atsuyuki Morishima. A Database Abstraction for Data-intensive Social Applications.<br>
+The 5th Korea-Japan Database Workshop 2010 (KJDB2010), May 28-29, 2010. 
+Jeju Province, Korea. (Invited Talk: <a href="./kjdb2010-proc.pdf">Slides here</a>)</li>
+<li>Noriaki Anzai, Atsuyuki Morishima. A Database Language for Collaborative Data Management by Computers and People. IPSJ Technical Report, 2009-DBS-149(12), pp. 1-8, Nov. 2009. (in Japanese)</li>
+</ul>
+</td></tr>
+<tr></tr>
+<tr><td>
+<!--<tr><td><img src="logom.jpg" height="36"/><img src="ssakigake.gif" height="36"/><img src="logo37.gif"/><img src="logo2.gif" height="40"/></td></tr>-->
+</td></tr>
+<tr bgcolor="#000000"><td><font color="black">()</font></td></tr>
+</table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,205 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
+<meta name="keywords" content="FusionCOMP,CyLog,クラウドソーシング,ヒューマンコンピュテーション"> 
+<meta name="robots" content="INDEX,FOLLOW">
+<title>The FusionCOMP プロジェクト - クラウドソーシングとヒューマンコンピュテーションのための柔軟なプログラミング言語と開発環境の研究: CyLog, Crowd4U, and more - 筑波大学</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-25989053-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<style type="text/css">
+<!-- @import url(./style.css); -->
+</style>
+</head>
+<body>
+ご注意：このページの内容は最新ではありません．今後更新される予定です．
+<center>
+<table width="800">
+<tr><td>
+[<a href="./index.html"> in English </a>]<br/>
+<img src="./infospacebuilder.jpg"/>
+</td></tr>
+<tr><td>
+本プロジェクトの一部は，科学技術振興機構戦略的創造研究推進事業(さきがけ) 研究領域「情報環境と人」における「人と計算機の知の融合のためのプログラミング言語と開発環境」(2010年10月～2014年3月)，文部科学省科学研究費「データ中心型クラウドソーシングプラットフォームの高度化とその応用に関する研究」(2013年4月～2017年3月)，科学技術振興機構SIP（戦略的イノベーション創造プログラム）「レジリエントな防災・減災機能の強化」研究開発課題「知見の構造化によるWebアプリ「災害対応チュートリアル」（研究責任者：田村圭子）2014年9月～2019年3月，の支援を受けています．
+</td></tr>
+<tr></tr>
+<tr><td>
+近年，計算機では処理が困難な問題の処理を人間にアウトソーシングする<a href="./keywords.html">ヒューマンコンピュテーション/クラウドソーシング</a>や，人々の計算機ネットワーク上での活動を生かしたソーシャルコンピューティング等が注目を集めています．究極には，今後人類が直面する困難な問題を解決するために，得意分野が異なる計算機と人間の知を融合して立ち向かう事が重要になると考えられます．
+
+本研究はそれに向けての第一歩であり，
+ソーシャル・ヒューマンコンピュテーション，クラウドソーシング系ソフトウェア等を含む，
+人と計算機が共に適切に働くことが必要なデータ指向ソフトウェアを迅速に開発するためのプログラミング言語・環境の研究を行います．
+人をゲームに従って動く"合理的情報源"とモデル化し，
+プログラムの明示的な構成要素とする事により，
+人と計算機を一つのシステムとみなしたアドホックでないプログラミングを実現する技術基盤の確立に挑戦します．
+</td></tr>
+<tr></tr>
+<tr><td>
+<img src="concept.jpg" width="400" style="float:left"/>
+FusionCOMPプロジェクトの中心課題は，人と計算機の知の融合を記述する，実行・解析可能なアブストラクションとしてのプログラミング言語の研究です．
+その研究を通じて目指す目標は，大きく二つに分けられます．
+<ul>
+<li>人と計算機が共に適切に働くことが必要な応用ソフトウェアの迅速な開発を実現する．
+<li>人と計算機が共に適切に働くことが必要なコンピュテーションに関する科学的知見を得る．
+</ul>
+このように，本プロジェクトでは，「人と計算機の融合コンピューティング」という新たな領域を切り開くことを目指し，研究を推進します．
+</td></tr>
+<tr><td>
+<h2>FusionCOMPプロジェクト進捗状況</h2>
+FusionCOMPプロジェクトのビジョンである，計算機だけでなく人も計算資源と見なした知の融合を実現するため，
+現在は下記について研究開発を行っています．
+<ul>
+<li> プログラミング言語<a href="http://crowd4u.org/cylog">CyLog</a>
+<li> <a href="http://crowd4u.org">マイクロボランティア&クラウドソーシングプラットフォームCrowd4U</a>
+<li> 開発を支えるツールキット
+<li> 人と計算機の知の融合プログラミングに関する理論的基盤
+<li> 各種アプリケーション
+</ul>
+</td></tr>
+<tr><td>
+<h2> Some of the Key Technologies</h2>
+<ul>
+<li> <a href="http://crowd4u.org/cylog">CyLog</a>
+<ul>
+<li> A rule-based language that allows us to write declarative and seamless description of human/machine computations: both of human/machine computations are described with the same set of programming constructs.
+<li> The syntax is similar to Datalog (or Prolog).
+<li> Human as a rational data source: Each human is modeled as a rational data source, which provides data according to expected rewards.
+CyLog allows us to write data games and aggregations to obtain values with required properties (e.g., correctness).
+<li> Open predicates/attributes: An open predicate is a predicate that humans are expected to evaluate if its truth cannot be determined by computers based on the already-known facts.
+Similary, an open attribute is an attribute that humans are expected to fill in if its value cannot be derived by computers based on the already-known facts.
+<p> For example, the following code assigns a set of keywords as metadata to each image when the keywords are given by the crowd and have definitions in the dictionary.<br/>
+<tt>Metadata(i, w) : - img(i), keywords(i, w)/open, inDict(w)</tt>
+</p></li>
+<li> Game Aggregations: functions to compute values based on the behaviors of humans or the crowd.
+</ul>
+<li> <a href="http://crowd4u.org">Crowd4U</a>: A crowdsourcing platform for academinc purposes, which can execute CyLog codes</li>
+</ul>
+</td></tr>
+<tr><td>
+<h2>Related Systems/Technologies/Research Projects (under construction)</h2>
+Data-centricなものに関しては，Anhai Doan, Michael Franklin, Donald Kossmann, Tim KraskaらによるVLDB2011での<a href="http://www.cs.berkeley.edu/~kraska/pub/2011-09-01_Crowd_VLDB_Tutorial_print.pdf">チュートリアル</a>があります．本プロジェクトにも触れられています．<br/>
+<ul>
+<li><a href="http://groups.csail.mit.edu/uid/turkit/">TurKit</a>: A Java/JavaScript API for running iterative tasks on Mechanical Turk. With TurKit, programmers write programs in a straightforward imperative manner, but can safely re-execute programs without re-running costly side effects on Mechanical Turk. CyLog provides a data-centric declarative abstraction, focusing on the fusion of human/machine computations.
+<li><a href="http://www.ifi.uzh.ch/ddis/research/CrowdLang.html">CrowdLang</a>: A model-based programming language for complex crowdsourcing applications. 
+It is interesting that it provides a set of common patterns and concepts taken from  collective intelligence applications.
+Currently, it seems that the codes in CrowdLang are written at an abstract level. In contrast, the codes in CyLog is executable.</li>
+<li><a href="http://ai.cs.washington.edu/projects/ckb">Collective Knowledge Bases</a>:
+In the project, they constructed a system to leverage mass collaboration to build large knowledge bases. In the system, contributers (1) give facts and rules and (2) receive feedbacks.
+The collected knowledge base is utilized in an traditional expert-system fastion.
+For example, it is used for printer truble shooting.
+In contrast, CyLog is designed for data-centric applications, in which we collect, process, integrate, and manage data in the presence of human data sources.
+This makes a big difference in the language design. 
+For example, CyLog does not take the traditional closed world assumption and has a mechanism to solicit human input.
+<li><a href="http://people.csail.mit.edu/marcua/research.html">Qurk</a>: 
+Qurk helps users build crowd-powered data processing workflows using a SQL-like language.
+In Qurk, user-defined functions are incorporated into SQL queries to interact with the crowd. 
+In contrast, CyLog programs employ Datalog-style rules and an event-driven semantics.
+<li><a href="http://www-cs-students.stanford.edu/~adityagp/scoop.html">sCOOP</a>: The Stanford--Santa-Cruz Project for Cooperative Computing with Algorithms, Data and People. Their hQuery is discussed in a Datalog-like notation. The h/ha-predicates of hQuery and our open predicates have some similarity. An open predicate is evaluated by humans when it cannot be evaluated by machines (through data or algorithms), while h-predicates and ha-predicates are evaluated by humans and both of human and algorithms, respectively.
+It is interesting that they have different (and possibly complementary) approaches to deal with data values obtained by people.
+hQuery takes the crowd-as-a-data-source approach, in that each value (associated with its certainty) is automatically by the crowd. They propose to use probability thresholds for that purpose.
+In contrast, CyLog takes the human-as-a-data-source approach in that we model each human as a rational data source and that we design data games and aggregations to obtain values with required properties.
+<li><a href="http://amplab.cs.berkeley.edu/publication/crowddb-answering-queries-with-crowdsourcing/">CrowdDB</a>: CrowdDB provides an SQL-compatible language to handle queries that cannot be answered by machines only. They try to achieve the data independence and query optimitzation in the presence of the crowd processing.
+Their CNULL and our open attributes are similar to each other.
+<li><a href="http://smus.com/crowdforge">CrowdForge</a>: A MapReduce-like framework/toolkit, being developed by CMU, to implement complex crowdsourcing applications based on the partition, map, and reduce abstractions. Compared to CyLog, CrowdForge gives us a higher-level abstraction to define the structure of crowdsourcing applications. 
+We think that CyLog can be used as an executable language into which the application definition by CrowdForge can be translated.
+</ul>
+</td></tr>
+<tr><td>
+
+
+<tr><td>
+<h2> プロジェクトメンバ</h2>
+<ul>
+<li><a href="http://fusioncomplab.org/people/atsuyuki/index-j.html">森嶋厚行</a>
+<li><a href="http://www.u.tsukuba.ac.jp/~s1013131/mlab/myPage.html">青木秀人</a>
+<li><a href="http://www.kde.cs.tsukuba.ac.jp/~shun.fukusumi/">福角駿 </a>
+<li><a href="http://www.kde.cs.tsukuba.ac.jp/~gonnokami/">権守健嗣</a>
+<li><a href="http://www.kde.cs.tsukuba.ac.jp/~tanji/">丹治寛佳</a></li>
+</ul>
+<h2> 研究協力者・過去メンバ</h2>
+<ul>
+<li>三津石智巳 (2010/4-2013/3)
+<li>品川徳秀 (2011/4-2013/3)
+<li>阿部徹也 (2010/11-2012/1)
+<li>望月祥司(2010/4-2011/3)
+<li>安永ゆい(2010/4-2011/3)
+<li>山口佳祐(2010/4-2011/3)
+<li>安西則晃(2009/4-2010/3)
+</ul>
+</td></tr>
+<tr><td>
+<h2>Publications/Talks</h2>
+<ul>
+<li>Atsuyuki Morishima. CyLog/Crowd4U: A Case Study of a Computing Platform for Cybernetic Dataspaces (招待執筆). <br/>Handbook of Human Computation, Springer, 2014. (to appear)<div class="new">(NEW!)</div></li>
+<li>Atsuyuki Morishima, Takanori Kawashima, Takashi Harada, Norihiko Uda, Ikki Ohmukai. 
+L-Crowd: A Library Crowdsourcing Project by LIS and CS Researchers in Japan (招待講演), <br/>International Conference on Digital Libraries (ICDL2013), November 2013. (to appear)
+<div class="new">(NEW!)</div></li>
+<li>Aoki Hideto, Atsuyuki Morishima. A Divide-and-Conquer Approach for Crowdsourced Data Enumerataion. <br/>SocInfo 2013, November 2013. (to appear)<div class="new">(NEW!)</div></li>
+<li>森嶋厚行. Crowd4U/L-Crowd: アカデミアによる高度クラウドソーシングプラットフォームと図書館情報分野への応用 (招待講演). <br/>第45回ディジタル図書館ワークショップ/情報処理学会第112回情報基礎とアクセス技術研究会合同研究会，2013年9月26日<div class="new">(NEW!)</div></li>
+<li>Kenji Gonnokami, Atsuyuki Morishima, Hiroyuki Kitagawa. Condition-Task-Store: A Declarative Abstraction for Microtask-based Complex Crowd-sourcing. <br/>DBCrowd 2013: 20-25, August 2013.<div class="new">(NEW!)</div></li>
+<li>森嶋厚行. Crowd4U: アカデミアと応用分野専門家が構築する高度クラウドソーシングプラットフォーム (招待講演)．<br/>第27回人工知能学会全国大会，2013年6月5日</li>
+<li>丹治寛佳,森嶋厚行,井ノ口宗成.「Web情報を用いた災害状況把握のためのクラウドソーシング用マイクロタスクの試み」<br/>
+ 2013年電子情報通信学会　総合大会講演論文集,1page, 岐阜大学,2013年3月19日.</li>
+<li>富田栞,森嶋厚行,川島隆徳,宇陀則彦,原田隆史.「クラウドソーシングによる書誌誤同定発見のためのタスク設計」<br/>
+2013年電子情報通信学会　総合大会講演論文集 ,1page, 岐阜大学,2013年3月19日.</li>
+<li> 青木秀人，森嶋厚行，三津石智巳．「クラウドソーシングによるデータ収集のためのタスク生成手法の提案」<br/>
+ 第5回データ工学と情報マネジメントに関するフォーラム(DEIM 2013),7 pages, 福島県郡山市,2013年3月4日．</li>
+<li>権守健嗣，森嶋厚行.「宣言的記述によるクラウドソーシングシステムの開発支援」<br/>
+ 第5回データ工学と情報マネジメントに関するフォーラム(DEIM 2013),8 pages, 福島県郡山市,2013年3月4日．</li>
+<li>三津石智巳，森嶋厚行，青木秀人.「Crowdsourced Join Pre-filterによるHuman-powerd Join処理効率化の評価」<br/>
+第5回データ工学と情報マネジメントに関するフォーラム(DEIM 2013),8 pages, 福島県郡山市,2013年3月4日． </li>
+<li>Tomomi Mitsuishi, Atsuyuki Morishima, Norihide Shinagawa, Hideto Aoki. "Efficient Evaluation of Human-powered Joins with Crowdsourced Join Pre-filters." The 7th ACM International Conference on Ubiquitous Information Management and Communication (ACM ICUIMC2013), 6 pages, Kota Kinabalu, Malaysia, January 17-19, 2013.</li>
+<li>Atsuyuki Morishima. Declarative Data-centric Crowdsourcing (招待講演), The 7th Korea-Japan Database Workshop 2012,(KJDB 2012) November 30 - December 2, 2012.</li>
+<li>森嶋厚行.「クラウドソーシングという新たな潮流に触れて」(招待講演), 第14回図書館総合展,　パシフィコ横浜,神奈川県,2012年11月22日.</li>
+<li>Atsuyuki Morishima, Norihide Shinagawa, Tomomi Mitsuishi, Hideto Aoki, Shun Fukusumi. CyLog/Crowd4U: A Declarative Platform for Complex Data-centric Crowdsourcing, PVLDB 5(12): 1918-1921 (2012) (<a href="http://crowd4u.slis.tsukuba.ac.jp/vldb2012">Demo page</a>) <!--<div class="new">(NEW!)</div>--></li>
+<li>福角駿，森嶋厚行，品川徳秀，北川博之
+「DB抽象化とゲーム理論に基づくマイクロブログからの構造データ抽出GWAPの開発」 (Applying DB Abstraction and Game Theory to Development of a GWAP for Extracting Structured Data from Microblogs)<br/>
+DBSJ論文誌, Vol 11, No. 1, pp. 19-24, 2012年6月. <!--<div class="new">(NEW!)</div>--></li>
+<li>三津石智巳，森嶋厚行，品川徳秀，青木秀人
+「Human-powered Join処理に対するクラウドソーシングを用いた効率化手法の評価 (Evaluation of a Crowdsourced Method for the Efficient Processing of Human-powered Joins)<br/>
+第3回ソーシャルコンピューティングシンポジウム (SoC 2012), 6 pages, 東京，2012年6月.<!--<div class="new">(NEW!)</div>--></li>
+<li>三津石智巳，森嶋厚行，品川徳秀，青木秀人
+「クラウドソーシングによるHuman-powered Joinの効率化<br/>
+第4回データ工学と情報マネジメントに関するフォーラム(DEIM 2012), 6 pages, 神戸，2012年3月.</li>
+<li>福角駿，森嶋厚行，品川徳秀
+「GWAPによるマイクロブログからの構造データ抽出」<br/>
+第4回データ工学と情報マネジメントに関するフォーラム, 8 pages, 神戸，2012年3月.</li>
+<li>青木秀人，森嶋厚行，品川徳秀，三津石智巳
+「データ中心型クラウドソーシングのための網羅演算の提案」<br/>
+第4回データ工学と情報マネジメントに関するフォーラム(DEIM 2012), 7 pages, 神戸，2012年3月.</li>
+<li>Atsuyuki Morishima, Norihide Shinagawa, Shoji Mochizuki. The Power of Integrated Abstraction for Data-centric Human/Machine Computations. First International Workshop on Searching and Integrating New Web Data Sources (VLDS2011) Co-located with VLDB 2011, pp. 5-9, September, 2011. (<a href="./vlds2011.pdf">pdf here</a>. <a href="./vlds2011-mori-talk-upload.pdf">Slides here</a>.)
+<li>三津石智巳，品川徳秀，森嶋厚行, (研究協力者: 望月祥司，安永ゆい，山口佳祐，青木秀人)．「人と計算機の知の融合アプリケーションとその開発環境」．第2回ソーシャルコンピューティングシンポジウム (SoC2011), 2011年6月. (poster with demonstrations: <a href="SoC2011-poster-A4.pdf">poster in Japanese here</a>)
+<li>三津石智巳，望月祥司，森嶋厚行「人と計算機を情報資源とする統合情報検索システムCySearchの提案」
+情報処理学会第73回全国大会講演論文集(第1分冊), pp. 683-684, 2011年3月.
+<li>安永ゆい，望月祥司，森嶋厚行「GWAPによるオントロジ構築手法の提案」
+情報処理学会第73回全国大会講演論文集(第1分冊), pp. 765-766, 2011年3月．
+<li>森嶋厚行「人と計算機の知の融合のためのプログラミング言語と開発環境」
+合同エージェントワークショップ＆シンポジウム2010 (JAWS2010), JSTさきがけセッション, 2010年10月27日-29日</li>
+<li>Atsuyuki Morishima. A Database Abstraction for Data-intensive Social Applications.<br/>
+The 5th Korea-Japan Database Workshop 2010 (KJDB2010), May 28-29, 2010. 
+Jeju Province, Korea. (Invited Talk: <a href="kjdb2010-proc.pdf">Slides here</a>)</li>
+<li>Atsuyuki Morishima, Noriaki Anzai. A Database Language for Collaborative Data Management by Computers and People. IPSJ Technical Report, 2009-DBS-149(12), pp. 1-8, Nov. 2009. (in Japanese)</li>
+</ul>
+</td></tr>
+
+<tr></tr>
+<tr><td>
+<!--<tr><td><img src="logom.jpg" height="36"/><img src="ssakigake.gif" height="36"/><img src="logo37.gif"/><img src="logo2.gif" height="40"/></td></tr>-->
+<!--プロジェクト詳細は順次掲載します．-->
+</td></tr>
+<tr bgcolor="#000000"><td><font color="black">()</font></td></tr>
+</table>
+</center>
+
+</body>
+</html>
