@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Global Site Tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-96557943-40"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments)};
+  gtag('js', new Date());
+
+  gtag('config', 'UA-96557943-40');
+  //mlabcontens
+  gtag('config', 'UA-109830286-1');
+</script>
+<meta charset="utf-8">
+<meta name="keywords" content="HCII 2022,筑波大学,融合知能デザイン研究室,森嶋·松原·伊藤研究室,クラウドソーシング,ヒューマンコンピュテーション">
+<meta name="description" content="HCII 2022に論文が採択されました．">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,user-scalable=no,maximum-scale=1">
+<title>HCII 2022に論文が採択されました</title>
+<!--Css-->
+<link rel="stylesheet" type="text/css" href="../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../css/style.css" media="screen and (min-width:769px)">
+<link rel="stylesheet" type="text/css" href="../css/sp.css" media="screen and (max-width:769px)">
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link href="https://fonts.googleapis.com/css?family=Marcellus" rel="stylesheet">
+<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet" />
+
+<style>
+  #main h1 {
+  background: #ccc;
+  font-size: 1.8em;
+  font-weight: normal;
+  }
+
+  #main h3 {
+  margin-bottom: 20px;
+  }
+  
+  .vision_box {
+  margin-bottom: 20px;
+  }
+</style>
+
+
+<!--[if lt IE 9]>
+<script src="../js/common/html5shiv.js"></script>
+<![endif]-->
+</head>
+
+<body>
+
+<div id="body_bg"></div>
+
+<div id="wrap">
+
+<header>
+<div id="hd">
+<h1><a href="../index.html"><img src="../images/logo.png" alt="FusionCompLab / Morishima &amp; Matsubara &amp; Ito Lab. 融合知能デザイン研究室 / 森嶋·松原・伊藤研究室"></a></h1>
+<div id="nav">
+<nav>
+<ul>
+<li><a href="../index.html">HOME<span>ホーム</span></a></li>
+<li><a href="../vision.html">VISION<span>ビジョン</span></a></li>
+<li><a href="../people.html">PEOPLE<span>メンバー</span></a></li>
+<li><a href="../forb3.html">JOINING LAB<span>参加してみよう！</span></a></li>
+<li><a href="../projects.html">PROJECTS<span>プロジェクト</span></a></li>
+<li><a href="../publications.html">PUBLICATIONS<span>研究業績</span></a></li>
+<li><a href="../news.html">NEWS<span>ニュース</span></a></li>
+<li><a href="../about.html">ABOUT/CONTACT<span>研究室について</span></a></li>
+</ul>
+</nav>
+</div>
+<!--nav end-->
+</div>
+</header>
+<!--header end-->
+
+<div id="fix_nav_bg">
+<div id="fix_nav">
+<h1><a href="../index.html"><img src="../images/logo.png" alt="FusionCompLab / Morishima &amp; Matsubara &amp; Ito Lab. 融合知能デザイン研究室 / 森嶋·松原・伊藤研究室"></a></h1>
+<nav>
+<ul>
+<li><a href="../vision.html">VISION<span>ビジョン</span></a></li>
+<li><a href="../people.html">PEOPLE<span>メンバー</span></a></li>
+<li><a href="../forb3.html">JOINING LAB<span>参加してみよう！</span></a></li>
+<li><a href="../projects.html">PROJECTS<span>プロジェクト</span></a></li>
+<li><a href="../publications.html">PUBLICATIONS<span>研究業績</span></a></li>
+<li><a href="../news.html">NEWS<span>ニュース</span></a></li>
+<li><a href="../about.html">ABOUT/CONTACT<span>研究室について</span></a></li>
+</ul>
+</nav>
+</div>
+</div>
+
+<a class="menu_trigger" href="#nav">
+<span></span>
+<span></span>
+<span></span>
+</a>
+<!--menu_trigger end-->
+
+<!-- 修正箇所は、この行より上にある以下の３行内の XXXX に当る会議名(例:"iConference 2021")
+  <meta name="keywords" content="XXXXXXX ,......."   
+  <meta name="description" content="XXXXXXX に論文が採択されました"
+  <title> XXXXXX に論文が採択されました </title>
+と、それから、ここから  -->
+
+<div id="con_bg">
+<div id="con">
+
+<div id="main">
+  <main>
+    <article>
+
+      <section>
+	<h1 class="margin_T0">HCII 2022 に以下の論文が採択されました．(2022年1月17日)</h1>
+	<div class="vision_box">
+	  <h3>Nadeesha Wijerathna, Masaki Matsubara, Atsuyuki Morishima,"fectiveness of the Diverse set of Evidence for Finding Convincing Evidence by Crowdsourcing", 24TH INTERNATIONAL CONFERENCE ON HUMAN-COMPUTER INTERACTION (HCII2022), 26 June - 1 July 2022 (Accepted) </h3>
+	</div>
+      </section>
+
+    </article>
+  </main>
+
+  </div>
+<!--main end-->
+
+
+<!-- 修正箇所は、ここまで -->
+
+</div>
+</div>
+<!--contents end-->
+
+</div>
+<!--wrap end-->
+
+<a id="page-top" href="#wrap">PAGE TOP</a>
+
+<footer>
+<div id="ft">
+<a href="http://www.tsukuba.ac.jp/"><img src="../images/ft_tsukuba.png" alt="筑波大学"></a>
+<small>Copyright &#xA9; FusionCompLab All Rights Reserved.</small>
+</div>
+</footer>
+<!--footer end-->
+
+<!--Javascript-->
+<script type="text/javascript" src="../js/common/jquery-2.1.3.min.js"></script>
+<script type="text/javascript" src="../js/common/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="../js/function.js"></script>
+<!--flexslider-->
+<link rel="stylesheet" type="text/css" href="../css/flexslider.css"/>
+<script defer src="../js/jquery.flexslider.js"></script>
+<script type="text/javascript">
+$(window).load(function() {
+  $('.flexslider').flexslider({
+    animation: "fade"
+  });
+});
+</script>
+<!--flexslider end-->
+<!--lightbox-->
+<link rel="stylesheet" href="../css/lightbox.css" media="screen"/>
+<script src="../js/lightbox-2.6.min.js"></script>
+<!--lightbox end-->
+</body>
+</html>
