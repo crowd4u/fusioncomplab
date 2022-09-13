@@ -128,7 +128,7 @@ body {
 							left:0;
 						}
 					}
-					
+
 					ul{
 						display: block;
 						margin: 0 0 0 0;
@@ -168,10 +168,10 @@ body {
 							}
 						}
 					}
-					
-					
-					
-					
+
+
+
+
 				}
 			}
 		}
@@ -533,8 +533,13 @@ Original
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	padding: 50px 0 10px;
 	background: rgba(255,255,255,0.0);
+	flex-direction: column;
+	#i_temporal_info{
+		margin: 30px 10px;
+	}
 	#i_greeting{
 		width: calc(100% - 20px);
 		background: rgba(255,255,255,0.80);
