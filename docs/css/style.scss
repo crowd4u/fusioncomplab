@@ -29,9 +29,13 @@ body {
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
-	flex-direction: column;
 	background: #ffffff;
 	box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+	div{
+		img{
+			height: 20vh;
+		}
+	}
 	h1{
 		width: 400px;
 		padding: 40px 0;
