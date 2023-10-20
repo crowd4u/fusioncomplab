@@ -15,5 +15,6 @@
 @media only screen and (max-width: 750px) {
     .poster_image {
         width: 70% !important;
+        margin-bottom: 0px !important;
     }
 }
